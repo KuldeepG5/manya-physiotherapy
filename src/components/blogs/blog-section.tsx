@@ -20,7 +20,7 @@ const BlogSection = () => {
             key={index}
             description={item.description}
             image={item.image}
-            link={item.link}
+            id={item.id}
             title={item.title}
           />
         ))}

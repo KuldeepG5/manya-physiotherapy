@@ -1,13 +1,12 @@
-import { Banner, Footer, Header } from "@/components/common";
-import { useParams } from "react-router-dom";
+import { BlogDetailSection } from "@/components/blogs";
+import { Footer, Header } from "@/components/common";
 
 const BlogDetails = () => {
-  const { blogId } = useParams();
+
   return (
     <main className="page-container">
       <Header />
-      <Banner title={`Our Blog : ${blogId}`} />
-      {/* <BlogSection /> */}
+      <BlogDetailSection />
       <Footer />
     </main>
   );

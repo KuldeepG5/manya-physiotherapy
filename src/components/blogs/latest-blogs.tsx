@@ -26,9 +26,9 @@ const LatestBlogs = () => {
         {blogData.slice(0,3).map((item, index) => (
           <BlogCard
             key={index}
+            id={item.id}
             description={item.description}
             image={item.image}
-            link={item.link}
             title={item.title}
           />
         ))}

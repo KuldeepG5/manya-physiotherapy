@@ -12,6 +12,7 @@ import NotFound from "./404";
 import TermsAndConditions from "./terms-and-conditions";
 import PrivacyPolicy from "./privacy-policy";
 import BlogDetails from "./blog-details";
+import TherapyDetails from "./our-offerings/therapy-details";
 
 export {
     Home,
@@ -26,6 +27,7 @@ export {
     SymptomsWeTreat,
     TherapiesOffered,
     PrivacyPolicy,
+    TherapyDetails,
     TermsAndConditions,
     BlogDetails
 }
