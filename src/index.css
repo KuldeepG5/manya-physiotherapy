@@ -1,0 +1,218 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+
+  /* 🟨 Set your preferred color palette here */
+  --color-light: #f5dada;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-main: #7f0f0f;
+  --color-light: #f5dada;
+
+  /* 🟩 Apply your custom base colors to semantic tokens used by ShadCN */
+  --background: var(--color-white);
+  --foreground: var(--color-black);
+
+  --card: var(--color-white);
+  --card-foreground: var(--color-black);
+
+  --popover: var(--color-white);
+  --popover-foreground: var(--color-black);
+
+  --primary: var(--color-light);
+  --primary-foreground: var(--color-black);
+
+  --secondary: #e5e7eb; /* Tailwind's gray-200 */
+  --secondary-foreground: var(--color-black);
+
+  --muted: #f3f4f6; /* Tailwind's gray-100 */
+  --muted-foreground: #6b7280; /* Tailwind's gray-500 */
+
+  --accent: var(--color-light);
+  --accent-foreground: var(--color-black);
+
+  --destructive: #ef4444;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #f5dada;
+
+  /* Optional chart and sidebar colors if used */
+  --chart-1: #f87171;
+  --chart-2: #60a5fa;
+  --chart-3: #34d399;
+  --chart-4: #fbbf24;
+  --chart-5: #a78bfa;
+
+  --sidebar: var(--color-white);
+  --sidebar-foreground: var(--color-black);
+  --sidebar-primary: var(--color-light);
+  --sidebar-primary-foreground: var(--color-black);
+  --sidebar-accent: var(--color-light);
+  --sidebar-accent-foreground: var(--color-black);
+  --sidebar-border: #e5e7eb;
+  --sidebar-ring: #f5dada;
+}
+
+.dark {
+  --background: var(--color-black);
+  --foreground: var(--color-white);
+
+  --card: var(--color-black);
+  --card-foreground: var(--color-white);
+
+  --popover: var(--color-black);
+  --popover-foreground: var(--color-white);
+
+  --primary: var(--color-light);
+  --primary-foreground: var(--color-black);
+
+  --secondary: #374151;
+  --secondary-foreground: var(--color-white);
+
+  --muted: #1f2937;
+  --muted-foreground: #9ca3af;
+
+  --accent: var(--color-light);
+  --accent-foreground: var(--color-black);
+
+  --destructive: #f87171;
+  --border: #4b5563;
+  --input: #4b5563;
+  --ring: #f5dada;
+
+  --sidebar: var(--color-black);
+  --sidebar-foreground: var(--color-white);
+  --sidebar-primary: var(--color-light);
+  --sidebar-primary-foreground: var(--color-black);
+  --sidebar-accent: var(--color-light);
+  --sidebar-accent-foreground: var(--color-black);
+  --sidebar-border: #4b5563;
+  --sidebar-ring: #f5dada;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@import "tailwindcss";
+
+body {
+  font-family: "Mulish Variable", "Lexend Variable", sans-serif;
+}
+
+@theme {
+  --color-main: #7f0f0f;
+  --color-light: #f5dada;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+
+@layer base {
+  h1 {
+    @apply text-6xl font-extrabold;
+  }
+  h2 {
+    @apply text-2xl font-bold;
+  }
+  h3 {
+    @apply text-sm;
+  }
+  h4 {
+    @apply text-xs;
+  }
+  button {
+    @apply pl-4 pr-2 py-2 rounded-full flex justify-center items-center gap-4 font-bold text-main shadow;
+  }
+  button > span {
+    @apply p-2 bg-main rounded-full;
+  }
+}
+
+@layer components {
+  .icon {
+    @apply h-5 w-5 text-white;
+  }
+  .link-animation {
+    @apply hover:translate-x-1 transition-all duration-200
+  }
+}
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
+
+@utility page-container {
+  @apply grid ;
+}
+
+@utility page-x-padding {
+  @apply lg:px-20;
+}
+@utility section-container {
+  @apply px-3 lg:max-w-7xl mx-auto lg:px-0 my-20;
+}
+
+
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--color-main);
+  border-radius: 10px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-main);
+}
