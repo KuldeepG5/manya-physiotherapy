@@ -48,6 +48,11 @@ export const navConfig: INavConfig[] = [
         label: "Services Offered",
         link: "/service-offered",
       },
+      {
+        id: 3,
+        label: "Stay And Physiotherapy",
+        link: "/stay-and-physiotherapy",
+      },
     ],
   },
   {

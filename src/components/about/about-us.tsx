@@ -1,10 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  aboutUsContent,
-  founder,
-  officeImage1,
-} from "./about-data";
+import { aboutUsContent, founder, officeImage1 } from "./about-data";
 import Banner from "../common/banner";
 
 const AboutUs: React.FC = () => {
@@ -151,6 +147,15 @@ const AboutUs: React.FC = () => {
               {aboutUsContent.aboutFounder8}
             </p>
           </motion.div>
+              <img
+                src="/certificate-1.jpg"
+                className="h-full w-full object-cover"
+              />
+              <img
+                src="/certificate-2.jpg"
+                className="h-full w-full object-cover"
+              />
+           
         </motion.div>
       </section>
       <section className="py-12 px-4 md:px-20">

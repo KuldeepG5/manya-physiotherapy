@@ -1,17 +1,17 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { therapiesData, type ITherapyData } from "./therapies-data";
+import { conditionsData, type ITherapyData } from "./conditions-data";
 
-const TherapyDetailSection = () => {
-  const { therapyId } = useParams();
+const ConditionDetailSection = () => {
+  const { conditionId } = useParams();
   const [currentBlog, setCurrentBlog] = useState<ITherapyData | undefined>();
 
   useEffect(() => {
-    const selectedBlog = therapiesData.find((item) => item.id === therapyId);
+    const selectedBlog = conditionsData.find((item) => item.id === conditionId);
     if (selectedBlog) {
       setCurrentBlog(selectedBlog);
     }
-  }, [therapyId]);
+  }, [conditionId]);
 
   console.log(currentBlog);
 
@@ -35,7 +35,7 @@ const TherapyDetailSection = () => {
           <h2 className="mb-2">Popular Therapies</h2>
           <p className="border border-main lg:w-2/4"></p>
           <div className="p-2 divide-y divide-neutral-300 grid gap-4">
-            {therapiesData.slice(0, 5).map((item) => (
+            {conditionsData.slice(0, 5).map((item) => (
               <div className="grid grid-cols-4 py-4">
                 <div className="col-span-1">
                   <img
@@ -71,4 +71,4 @@ const TherapyDetailSection = () => {
   );
 };
 
-export default TherapyDetailSection;
+export default ConditionDetailSection;

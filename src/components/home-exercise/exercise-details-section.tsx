@@ -1,13 +1,13 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { therapiesData, type ITherapyData } from "./therapies-data";
+import { homeExerciseData, type ITherapyData } from "./home-exercise-data";
 
-const TherapyDetailSection = () => {
+const ExerciseDetailSection = () => {
   const { therapyId } = useParams();
   const [currentBlog, setCurrentBlog] = useState<ITherapyData | undefined>();
 
   useEffect(() => {
-    const selectedBlog = therapiesData.find((item) => item.id === therapyId);
+    const selectedBlog = homeExerciseData.find((item) => item.id === therapyId);
     if (selectedBlog) {
       setCurrentBlog(selectedBlog);
     }
@@ -35,7 +35,7 @@ const TherapyDetailSection = () => {
           <h2 className="mb-2">Popular Therapies</h2>
           <p className="border border-main lg:w-2/4"></p>
           <div className="p-2 divide-y divide-neutral-300 grid gap-4">
-            {therapiesData.slice(0, 5).map((item) => (
+            {homeExerciseData.slice(0, 5).map((item) => (
               <div className="grid grid-cols-4 py-4">
                 <div className="col-span-1">
                   <img
@@ -71,4 +71,4 @@ const TherapyDetailSection = () => {
   );
 };
 
-export default TherapyDetailSection;
+export default ExerciseDetailSection;

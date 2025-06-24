@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="lg:w-1/3">
           <a rel="noopener noreferrer" href="/" className="grid gap-3">
             <div className="flex items-center justify-start gap-3 rounded-full ">
-              <Logo />
+              <Logo isLight={false} />
             <span className="text-3xl font-bold">
               Manya <br/> Physiotherapy
             </span>
