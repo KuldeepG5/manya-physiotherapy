@@ -4,9 +4,9 @@ export const appConfig = {
   instagram: "",
   twitter: "",
   gmail: "example@gmail.com",
-  location: "123, A Block, Kanpur, UP",
-  whatsapp: "+91- 1234567899",
-  contact: "+91- 1234567899",
+  location: "97, Rajeev Bihar, Naubasta, Kanpur, UP",
+  whatsapp: "+91- 6394777590",
+  contact: "+91- 9598055535",
 };
 
 export interface INavChildren {

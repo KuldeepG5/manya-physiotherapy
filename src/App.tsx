@@ -8,13 +8,14 @@ import {
   Contact,
   FAQs,
   HomeExercise,
-  ServicesOffered,
+  ServiceOffered,
   SymptomsWeTreat,
   TherapiesOffered,
   PrivacyPolicy,
   TherapyDetails,
   TermsAndConditions,
   BlogDetails,
+  ServiceDetails,
 } from "./pages";
 
 const App = () => {
@@ -30,7 +31,11 @@ const App = () => {
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/conditions-we-treat" element={<ConditionsWeTreat />} />
         <Route path="/home-exercise" element={<HomeExercise />} />
-        <Route path="/service-offered" element={<ServicesOffered />} />
+        <Route path="/service-offered" element={<ServiceOffered />} />
+        <Route
+          path="/service-offered/:serviceId"
+          element={<ServiceDetails />}
+        />
         <Route path="/symptoms-we-treat" element={<SymptomsWeTreat />} />
         <Route path="/therapies-offered" element={<TherapiesOffered />} />
         <Route

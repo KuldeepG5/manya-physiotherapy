@@ -3,7 +3,7 @@ import About from "./about";
 import Blog from "./blog";
 import Contact from "./contact";
 import FAQs from "./faqs";
-import ServicesOffered from "./our-offerings/services.offered";
+import ServiceOffered from "./our-offerings/service-offered";
 import TherapiesOffered from "./our-offerings/therapies-offered";
 import ConditionsWeTreat from "./patient-education/condition-we-treat";
 import HomeExercise from "./patient-education/home-exercise";
@@ -13,6 +13,7 @@ import TermsAndConditions from "./terms-and-conditions";
 import PrivacyPolicy from "./privacy-policy";
 import BlogDetails from "./blog-details";
 import TherapyDetails from "./our-offerings/therapy-details";
+import ServiceDetails from "./our-offerings/services-offered";
 
 export {
     Home,
@@ -23,11 +24,12 @@ export {
     FAQs,
     HomeExercise,
     NotFound,
-    ServicesOffered,
+    ServiceOffered,
     SymptomsWeTreat,
     TherapiesOffered,
     PrivacyPolicy,
     TherapyDetails,
     TermsAndConditions,
-    BlogDetails
+    BlogDetails,
+    ServiceDetails
 }

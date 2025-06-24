@@ -140,8 +140,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-6 text-sm text-center ">
-        © {new Date().getFullYear()} Manya Physiotherapy. All rights reserved.
+      <div className="py-6 text-sm text-center flex items-center justify-between">
+        <span>Made by <a href="https://www.code-aspire.com/" target="_blank" className="hover:underline">Codeaspire</a></span>
+        <span>© {new Date().getFullYear()} Manya Physiotherapy. All rights reserved.</span>
       </div>
     </footer>
   );

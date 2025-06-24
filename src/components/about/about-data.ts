@@ -36,9 +36,9 @@ export const aboutUsContent = {
   aboutFounder8:
     "Manya Physiotherapy Clinic is built on a foundation of care, trust, and excellence in physiotherapy and rehabilitation.",
   visitUs: "Visit Us",
-  visitUs1: "Clinic 12-B",
-  visitUs2: ", First Floor,",
-  visitUs3: "Green Park Avenue, Kanpur, U.P"
+  visitUs1: "97, Rajeev Bihar",
+  visitUs2: "",
+  visitUs3: "Naubasta, Kanpur, U.P"
 };
 
 
