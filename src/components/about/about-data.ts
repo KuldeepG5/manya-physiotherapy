@@ -42,6 +42,6 @@ export const aboutUsContent = {
 };
 
 
-export const founder = "/hero-bg-3.jpg";
+export const founder = "/founder.jpg";
 export const poster = "/hero-bg-2.jpg";
 export const officeImage1 = "/manya-physiotherapy.jpeg";

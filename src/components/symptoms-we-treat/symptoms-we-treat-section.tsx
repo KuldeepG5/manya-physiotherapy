@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { therapiesData } from "@/components/therapies-offered/therapies-data";
+import { symptomsData } from "@/components/symptoms-we-treat/symptoms-data";
 import { Link } from "react-router-dom";
 import { CustomButton } from "../common";
 
@@ -16,7 +16,7 @@ const SymptomsWeTreatSection = () => {
     setVisibleCount(9); // Reset visible count on search
   };
 
-  const filteredTherapies = therapiesData.filter((therapy) =>
+  const filteredTherapies = symptomsData.filter((therapy) =>
     therapy.name.toLowerCase().includes(searchTerm)
   );
 

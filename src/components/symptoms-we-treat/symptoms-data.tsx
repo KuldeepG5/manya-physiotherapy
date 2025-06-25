@@ -9,1118 +9,717 @@ export interface ITherapyData {
 }
 
 export const symptomsData: ITherapyData[] = [
-{
-  id: "8eb96cfb-72dd-4c5f-b0ed-953bdce90623",
-  name: "Interferential Therapy (IFT)",
-  image:
-    "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  description:
-    "Uses low-frequency electrical signals to reduce pain and inflammation.",
-  data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
-}
-,
   {
-    id: "4a6159ef-f2cd-4948-8ce3-e081f4f72059",
-    name: "Chiropractic Therapy",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-      data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
-    description:
-      "Focuses on spinal alignment to restore proper function and relieve pain.",
-  },
-  {
-    id: "501e7183-f72a-4ae2-8075-1e940d5b526f",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-    name: "Ultrasound Therapy",
-  data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
-    description:
-      "Employs sound waves to promote tissue healing and reduce inflammation.",
-  },
-  {
-    id: "955a34f0-424f-4a4d-8f2f-cc5a9bda6803",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
-    name: "Wax Therapy",
-    description:
-      "Involves warm wax to relax muscles and improve joint mobility.",
-  },
-  {
-    id: "2fadb5d1-1f3f-4dfb-b3b3-87452c5e093d",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-   data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
-    name: "Traction Therapy",
-    description:
-      "Gently stretches the spine to relieve pressure on discs and nerves.",
-  },
-  {
-    id: "589012ea-82b9-43ff-a7ce-25b0be6ffb1b",
-     data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
-    name: "Laser Therapy",
+    id: "8eb96cfb-72dd-4c5f-b0ed-953bdce90623",
+    name: "Body Weakness",
     image:
       "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
     description:
-      "Uses light energy to accelerate tissue repair and reduce pain.",
-  },
-  {
-    id: "b0ce6c3d-e477-4580-b4a9-eaf7d8a6d5b7",
-    name: "Kinesio Taping / Taping Therapy",
+      "Improves overall strength, endurance, and muscle coordination to combat general body weakness.",
     data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
+      return (
+        <div className="space-y-4">
+          <h2 className="text-xl font-bold">What is Body Weakness Therapy?</h2>
+          <p>
+            Body Weakness Therapy is a personalized physiotherapy program
+            designed to address muscular weakness, fatigue, and lack of
+            endurance caused by inactivity, illness, aging, or neurological
+            conditions. It aims to restore strength, mobility, and overall
+            physical function.
+          </p>
 
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
+          <h3 className="text-lg font-semibold">How it Works</h3>
+          <p>
+            The therapy involves a combination of resistance training,
+            functional exercises, balance work, and manual techniques.
+            Therapists assess the patient’s muscle strength and endurance levels
+            and customize a program that gradually increases physical
+            capability.
+          </p>
 
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
+          <h3 className="text-lg font-semibold">Benefits</h3>
+          <ul className="list-disc list-inside">
+            <li>Enhances muscle strength and tone</li>
+            <li>Improves posture and physical coordination</li>
+            <li>Boosts stamina and endurance</li>
+            <li>Reduces the risk of falls and injuries</li>
+          </ul>
 
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
+          <h3 className="text-lg font-semibold">
+            Common Causes of Body Weakness
+          </h3>
+          <ul className="list-disc list-inside">
+            <li>Prolonged bed rest or inactivity</li>
+            <li>Post-surgical recovery</li>
+            <li>Neuromuscular conditions (e.g., stroke, MS)</li>
+            <li>Aging and sarcopenia (muscle loss)</li>
+          </ul>
 
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
+          <p className="mt-4">
+            Body Weakness Therapy is a holistic and gradual approach tailored to
+            individual needs. It plays a key role in restoring independence and
+            enhancing quality of life through improved physical performance.
+          </p>
+        </div>
+      );
+    },
   },
+  {
+    id: "c182e16b-4114-4a2d-aeb7-f4c3d403f202",
+    name: "Unable to Walk",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "https://img.freepik.com/free-photo/physiotherapist-helping-old-man-walk-with-walker_23-2149212412.jpg?t=st=1719332855~exp=1719336455~hmac=bf012e985f7e9285d9602b77ec68ea4c4a5c979f3b88dcbcf4ce81c579349ae5&w=826",
     description:
-      "Applies elastic tape to support muscles and joints without restricting movement.",
+      "Focused rehabilitation program to restore walking ability through strength, balance, and coordination training.",
+    data: () => {
+      return (
+        <div className="space-y-4">
+          <h2 className="text-xl font-bold">
+            What is 'Unable to Walk' Rehabilitation?
+          </h2>
+          <p>
+            This therapy focuses on individuals who have lost their ability to
+            walk due to injury, surgery, neurological disorders, or prolonged
+            immobility. The goal is to restore functional ambulation through
+            targeted physical therapy techniques.
+          </p>
+
+          <h3 className="text-lg font-semibold">How it Works</h3>
+          <p>
+            The rehabilitation involves strength training, balance and gait
+            correction exercises, assistive device training (e.g., walkers,
+            canes), and neuromuscular re-education. A physiotherapist evaluates
+            the patient’s condition and tailors a progressive plan to regain
+            independent walking ability.
+          </p>
+
+          <h3 className="text-lg font-semibold">Benefits</h3>
+          <ul className="list-disc list-inside">
+            <li>Restores muscle strength and coordination</li>
+            <li>Improves balance and posture</li>
+            <li>Builds confidence in mobility</li>
+            <li>Reduces the risk of secondary complications</li>
+          </ul>
+
+          <h3 className="text-lg font-semibold">Common Causes Treated</h3>
+          <ul className="list-disc list-inside">
+            <li>Post-stroke or spinal cord injury</li>
+            <li>Fractures or joint replacement recovery</li>
+            <li>Neurological conditions (e.g., Parkinson’s, MS)</li>
+            <li>Age-related weakness and falls</li>
+          </ul>
+
+          <p className="mt-4">
+            Recovery from loss of mobility requires consistency and expert
+            guidance. This therapy is designed to help patients walk again with
+            independence and dignity.
+          </p>
+        </div>
+      );
+    },
   },
   {
-    id: "2a84d38a-9078-4a42-95d1-3fa29a1ef279",
-    name: "Dry Needling Therapy",
-  data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
+    id: "cb-01-knee-pain",
+    name: "Knee Pain",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "https://img.freepik.com/free-photo/woman-holding-her-knee-pain_23-2149225467.jpg",
     description:
-      "Involves inserting fine needles to release muscle tension and trigger points.",
-  },
-  {
-    id: "346bbab9-5914-452f-89a7-a1d4b0a69102",
-    name: "Thermotherapy (Heat Therapy)",
-   data: () => {
-    return (
+      "Assessment and treatment for knee pain caused by injury, arthritis, or overuse.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What is Knee Pain Therapy?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
+          Personalized physiotherapy care aimed at reducing knee pain, improving
+          stability, and restoring mobility, suitable for injuries,
+          osteoarthritis, and post-operative recovery.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          A combination of targeted exercises, manual therapy, taping, and
+          education is used to strengthen supporting muscles, align
+          biomechanics, and reduce stress on the knee joint.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
+          <li>Reduces pain and inflammation</li>
+          <li>Improves joint stability and strength</li>
+          <li>Enhances range of motion</li>
+          <li>Reduces risk of re-injury</li>
         </ul>
 
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
+        <h3 className="text-lg font-semibold">Common Causes</h3>
         <ul className="list-disc list-inside">
+          <li>Ligament sprains/tears</li>
+          <li>Meniscus injury</li>
           <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Tendonitis</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Knee pain therapy helps patients regain functional mobility and return
+          to daily activities without discomfort.
         </p>
       </div>
-    );
+    ),
   },
+  {
+    id: "cb-02-muscle-spasm",
+    name: "Muscle Spasm",
+    image:
+      "https://img.freepik.com/free-photo/close-up-muscle-cramp_23-2149023456.jpg",
     description:
-      "Uses heat to improve blood flow, reduce stiffness, and ease muscle spasms.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "83f80c9d-91cb-467d-a7d2-8a1d48aa7427",
-    name: "Transcutaneous Electrical Nerve Stimulation (TENS)",
-  data: () => {
-    return (
+      "Relieves involuntary muscle contractions causing pain and stiffness.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What is Muscle Spasm Treatment?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
+          This treatment addresses sudden involuntary muscle contractions
+          (spasms) by using modalities such as cryotherapy, TENS, stretching,
+          manual therapy, and education.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          A trained therapist combines cold therapy, gentle stretches,
+          electrical stimulation, and massage to alleviate contraction and
+          restore normal muscle length and function.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
+          <li>Reduces pain and inflammation</li>
+          <li>Relaxes the muscle</li>
+          <li>Improves mobility</li>
         </ul>
 
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
+        <h3 className="text-lg font-semibold">Common Triggers</h3>
         <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Overuse or fatigue</li>
+          <li>Electrolyte imbalance or dehydration</li>
+          <li>Stress or prolonged posture</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Therapy focuses on breaking the cycle of spasm and restoring muscle
+          comfort and function.
         </p>
       </div>
-    );
+    ),
   },
+  {
+    id: "cb-03-concussion",
+    name: "Concussion",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "https://img.freepik.com/free-photo/headache-concept_23-2148623456.jpg",
     description:
-      "Delivers electrical impulses to relieve pain and improve circulation.",
-  },
-  {
-    id: "d35874a3-1a23-4f87-a2f2-d6825c1507e9",
-    name: "Lymphatic Drainage Massage",
-      data: () => {
-    return (
+      "Post-head injury rehabilitation to recover balance, cognition, and neck function.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">
+          What is Concussion Rehabilitation?
+        </h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
+          A structured rehab program for mild traumatic brain injury to restore
+          balance, neck mobility, vision, and cognitive function following head
+          or whiplash injury.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Therapists assess vestibular, cervical, visual, and cognitive
+          deficits, then apply manual therapy, balance training, visual-motor
+          exercises, and graded physical activity.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
+          <li>Reduces headaches and dizziness</li>
+          <li>Improves balance and coordination</li>
+          <li>Restores neck mobility</li>
+          <li>Enhances cognitive clarity</li>
         </ul>
 
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
+        <h3 className="text-lg font-semibold">Common Symptoms</h3>
         <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Headache, nausea</li>
+          <li>Dizziness or blurred vision</li>
+          <li>Balance issues</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Concussion rehab supports safe return to daily life, school, or sport
+          with a progressive recovery plan.
         </p>
       </div>
-    );
+    ),
   },
+  {
+    id: "cb-04-shortness-of-breath",
+    name: "Shortness of Breath",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "https://img.freepik.com/free-photo/woman-experiencing-breathing-difficulty_23-2149234567.jpg",
     description:
-      "Stimulates lymph flow to reduce swelling and detoxify the body.",
-  },
-  {
-    id: "04f7a026-fdd2-45f7-a120-a17ea2798503",
-    name: "Overhead Track Harness Therapy",
-      data: () => {
-    return (
+      "Physiotherapy for breathing difficulties using breathing exercises and airway techniques.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">
+          What is 'Shortness of Breath' Therapy?
+        </h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
+          A respiratory-focused physiotherapy program to improve breathing
+          efficiency, lung clearance, and oxygen intake in conditions like COPD,
+          asthma, or post-COVID weak lungs.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Techniques include diaphragmatic breathing, pacing, positioning,
+          airway clearance, and, where needed, inspiratory muscle training.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
+          <li>Improves breathing control</li>
+          <li>Reduces breathlessness</li>
+          <li>Enhances oxygenation</li>
+          <li>Boosts exercise tolerance</li>
         </ul>
 
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
+        <h3 className="text-lg font-semibold">Common Causes</h3>
         <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Chronic respiratory conditions</li>
+          <li>Post-COVID breathing difficulties</li>
+          <li>Pulmonary infections</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          This therapy empowers patients to breathe more effectively and helps
+          them resume daily activities with confidence.
         </p>
       </div>
-    );
+    ),
   },
+  {
+    id: "cb-muscle-stiffness",
+    name: "Muscle Stiffness",
+    image:
+      "https://img.freepik.com/free-photo/close-up-muscle-cramp_23-2149023456.jpg",
     description:
-      "Supports body weight for gait training and mobility improvement.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "3a2e8e75-0521-4a2f-826c-3104c8ab5643",
-    name: "Tecar / Cret Therapy",
-      data: () => {
-    return (
+      "Relieves tight, hard-to-move muscles using stretching, massage, and modalities.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">
+          What is Muscle Stiffness Treatment?
+        </h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
+          Muscle stiffness is when muscles feel tight and difficult to move,
+          often after rest or exertion. Treatment combines stretching, manual
+          therapy, heat/cold packs, and movement exercises to restore
+          flexibility.
         </p>
-
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Therapists assess muscle tightness and apply targeted stretches, soft
+          tissue mobilization, and thermal modalities (hot/cold) to loosen tight
+          bands and improve tissue pliability.
         </p>
-
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
+          <li>Improves flexibility and mobility</li>
+          <li>Reduces pain and stiffness</li>
+          <li>Prevents injury recurrence</li>
         </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Ideal for post-activity soreness, chronic tightness, or after
+          prolonged immobility.
         </p>
       </div>
-    );
+    ),
   },
+
+  /* ───────────────────────────────  HEADACHE  ─────────────────────────────── */
+  {
+    id: "cb-headache",
+    name: "Headache",
+    image:
+      "https://img.freepik.com/free-photo/headache-concept_23-2148623456.jpg",
     description:
-      "Promotes healing using capacitive and resistive energy transfer.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "b2014c10-200c-46ba-84a2-d2408525c75e",
-    name: "Manual Therapy",
-      data: () => {
-    return (
+      "Physiotherapy techniques to relieve tension, cervicogenic and migraine-type headaches.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What is Headache Management?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
+          Physiotherapy helps reduce headache frequency and intensity through
+          posture correction, neck mobilization, relaxation training, and
+          targeted exercises.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Therapists assess neck and upper-back mechanics, apply gentle manual
+          techniques, teach stretching & strengthening drills, and may use
+          modalities such as TENS or heat–cold therapy.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Relieves head, neck and shoulder tension</li>
+          <li>Decreases headache frequency/intensity</li>
+          <li>Improves posture and stress control</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Suitable for tension, cervicogenic and certain migraine-related
+          headaches.
         </p>
       </div>
-    );
+    ),
   },
-    description: "Hands-on technique to mobilize joints and soft tissues.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
+
+  /* ───────────────────────────────  NECK PAIN  ────────────────────────────── */
   {
-    id: "c96debaa-8b59-4c55-acb1-0e92a34d06ca",
-    name: "Spinal Decompression / Traction Therapy",
-      data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
-    description: "Non-surgical method to relieve spinal pressure and pain.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "48e94c53-b020-40cf-b527-4a08419f3047",
-    name: "Spinal Decompression Therapy",
-      data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
+    id: "cb-neck-pain",
+    name: "Neck Pain",
+    image: "https://img.free-photo/person-holding-neck-pain_23-2149234562.jpg",
     description:
-      "Uses mechanical traction to stretch and relieve compressed spinal structures.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "f3b905d8-a8b1-465b-a479-d5666034bfdf",
-    name: "Cupping Therapy",
-      data: () => {
-    return (
+      "Restores neck mobility and reduces pain through manual therapy, exercise and ergonomic advice.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What is Neck Pain Therapy?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
+          A program combining joint mobilization, muscle release, traction,
+          posture education and strengthening to ease acute or chronic neck
+          pain.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          After assessing movement restrictions, the therapist applies hands-on
+          techniques, prescribes targeted exercises and advises on optimal desk
+          or sleeping ergonomics.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Improves range of motion</li>
+          <li>Decreases muscle tension and headaches</li>
+          <li>Prevents recurrence via posture training</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Effective for wry neck, spondylosis, whiplash and “tech-neck” strain.
         </p>
       </div>
-    );
+    ),
   },
+
+  /* ──────────────────────────────  SHOULDER PAIN  ─────────────────────────── */
+  {
+    id: "cb-shoulder-pain",
+    name: "Shoulder Pain",
+    image:
+      "https://img.free-photo/shirtless-male-shoulder-pain_23-2149234578.jpg",
     description:
-      "Applies suction cups to increase blood flow and relieve muscle tension.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "203f114a-805c-4f3c-a4b3-f80f7bea7288",
-    name: "Acupuncture",
-      data: () => {
-    return (
+      "Comprehensive care using exercise, manual therapy and taping for common shoulder conditions.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What is Shoulder Pain Therapy?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
+          Targets rotator-cuff injuries, impingement, frozen shoulder, arthritis
+          and instability through progressive strengthening and mobility drills.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Therapy blends joint mobilization, soft-tissue release, postural
+          retraining and home exercises to restore smooth, pain-free movement.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Increases shoulder strength & range</li>
+          <li>Reduces pain and inflammation</li>
+          <li>Improves joint stability and posture</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Suitable for athletes, desk workers and post-operative recovery alike.
         </p>
       </div>
-    );
+    ),
   },
+
+  /* ───────────────────────────────  JOINT PAIN  ───────────────────────────── */
+  {
+    id: "cb-joint-pain",
+    name: "Joint Pain",
+    image: "https://img.free-photo/close-up-knee-joint-pain_23-2149234570.jpg",
     description:
-      "Inserts thin needles into specific points to balance energy and relieve pain.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "805ff408-de8b-44f9-9719-ff22ae2ddbd6",
-    name: "Myofascial Release (MFR)",
-      data: () => {
-    return (
+      "Targeted rehabilitation for painful or arthritic joints using exercise and manual techniques.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What is Joint Pain Therapy?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Combines strengthening, mobility work, manual joint mobilization and
+          pain-relieving modalities to restore function and reduce discomfort in
+          knees, hips, ankles, wrists or other joints.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Relieves pain and swelling</li>
+          <li>Improves strength and mobility</li>
+          <li>Supports long-term joint health</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Appropriate for arthritis, overuse injuries and post-traumatic
+          conditions.
         </p>
       </div>
-    );
+    ),
   },
-    description: "Targets fascia to release tension and improve mobility.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
+
+  /* ────────────────────────────────  BACK PAIN  ───────────────────────────── */
   {
-    id: "fc66799b-5588-436f-8a77-c8f4e428e55c",
-    name: "Soft Tissue Mobilization",
-      data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
-    description: "Breaks down scar tissue and enhances muscle function.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "453fd0c9-f685-4ee6-8011-3b308ea02e9a",
-    name: "Pelvic Floor Physical Therapy",
-      data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
+    id: "cb-back-pain",
+    name: "Back Pain",
+    image: "https://img.free-photo/back-pain_23-2149234560.jpg",
     description:
-      "Strengthens pelvic floor muscles to treat incontinence and pain.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "ea83fe1c-2891-4c30-b4e7-a380903222cd",
-    name: "Cryotherapy (Cold Therapy)",
-      data: () => {
-    return (
+      "Combines exercise, manual therapy and education to relieve acute and chronic back pain.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What is Back Pain Therapy?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Addresses muscle spasm, disc problems and postural strain through
+          mobility drills, core strengthening, ergonomic correction and
+          pain-relief modalities.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Reduces pain intensity</li>
+          <li>Improves posture and core stability</li>
+          <li>Prevents future flare-ups</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Effective for sciatica, lumbar strain, spondylosis and sedentary
+          backache.
         </p>
       </div>
-    );
+    ),
   },
+
+  /* ─────────────────────────────  LOSS OF BALANCE  ────────────────────────── */
+  {
+    id: "cb-loss-of-balance",
+    name: "Loss Of Balance",
+    image:
+      "https://img.free-photo/elderly-person-balance-exercise_23-2149234550.jpg",
     description:
-      "Applies cold temperatures to reduce pain, swelling, and inflammation.",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-  },
-  {
-    id: "9e1203a0-63e1-443d-b173-ba9bf7a39e07",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-    name: "Chest Physiotherapy",
-     data: () => {
-    return (
+      "Specialized training to improve stability, coordination and prevent falls.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What is Balance Rehabilitation?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Helps individuals with dizziness, vestibular disorders, neuropathy or
+          age-related weakness regain confident, steady movement.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Enhances coordination and proprioception</li>
+          <li>Reduces fall risk</li>
+          <li>Builds lower-limb strength and posture control</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Program includes gait drills, balance board work and home exercise
+          routines.
         </p>
       </div>
-    );
+    ),
   },
-    description: "Clears lung secretions to improve respiratory function.",
-  },
+
+  /* ────────────────────────────  SPRAINS & STRAINS  ───────────────────────── */
   {
-    id: "0d5e7156-e151-4050-8a13-03cd9c611124",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-    name: "Shockwave Therapy",
-      data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
-
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
-
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
+    id: "cb-sprains-strains",
+    name: "Sprains And Strains",
+    image: "https://img.free-photo/sprain_23-2149234540.jpg",
     description:
-      "Uses acoustic waves to treat musculoskeletal conditions and stimulate healing.",
-  },
-  {
-    id: "e668efe9-ba85-4eaf-b833-6624df2490ed",
-    name: "Post-COVID Physiotherapy",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-      data: () => {
-    return (
+      "Rehabilitation for ligament sprains and muscle/tendon strains to restore full function.",
+    data: () => (
       <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+        <h2 className="text-xl font-bold">What are Sprains & Strains?</h2>
         <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
-
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Uses protection, controlled loading, manual therapy and progressive
+          strengthening to heal injured ligaments (sprains) or muscles/tendons
+          (strains).
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Reduces pain and swelling</li>
+          <li>Restores strength and flexibility</li>
+          <li>Prevents re-injury</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Tailored protocols for ankle, knee, wrist and hamstring injuries.
         </p>
       </div>
-    );
+    ),
   },
-    description:
-      "Rehabilitates patients recovering from COVID-19 with customized therapy.",
-  },
-  {
-    id: "dc3966f3-96f2-40e6-abf0-f85b5ebdb099",
-    name: "Shortwave Diathermy (SWD)",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
-     data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
 
-        <h3 className="text-lg font-semibold">How it Works</h3>
+  /* ───────────────────────────────  FOOT PAIN  ────────────────────────────── */
+  {
+    id: "cb-foot-pain",
+    name: "Foot Pain",
+    image: "https://img.free-photo/person-massaging-foot_23-2149234582.jpg",
+    description:
+      "Assessment and treatment for plantar fasciitis, heel pain and forefoot conditions.",
+    data: () => (
+      <div className="space-y-4">
+        <h2 className="text-xl font-bold">What is Foot Pain Therapy?</h2>
         <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
+          Addresses plantar fasciitis, metatarsalgia, heel spurs and tendonitis
+          with stretching, orthotic advice, taping and strengthening drills.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
-
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
+          <li>Reduces heel and arch pain</li>
+          <li>Improves foot biomechanics</li>
+          <li>Restores walking and running comfort</li>
         </ul>
 
         <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
+          Includes footwear guidance and home exercise programs.
         </p>
       </div>
-    );
+    ),
   },
+
+  /* ────────────────────────  NUMBNESS & TINGLING  ─────────────────────────── */
+  {
+    id: "cb-numbness-tingling",
+    name: "Numbness And Tingling",
+    image: "https://img.free-photo/hand-numbness-tingling_23-2149234590.jpg",
     description:
-      "Uses electromagnetic energy to generate deep tissue heat for healing.",
+      "Neuromuscular therapy to address sensory changes from nerve entrapment or circulation issues.",
+    data: () => (
+      <div className="space-y-4">
+        <h2 className="text-xl font-bold">What is Sensory Rehabilitation?</h2>
+        <p>
+          Combines nerve-gliding exercises, posture correction, manual release
+          and circulation-boosting drills to relieve pins-and-needles
+          sensations.
+        </p>
+
+        <h3 className="text-lg font-semibold">Benefits</h3>
+        <ul className="list-disc list-inside">
+          <li>Reduces numbness and tingling</li>
+          <li>Improves nerve mobility and blood flow</li>
+          <li>Restores normal sensation and function</li>
+        </ul>
+
+        <p className="mt-4">
+          Helpful for carpal tunnel, cervical radiculopathy and diabetic
+          neuropathy.
+        </p>
+      </div>
+    ),
+  },
+
+  /* ────────────────────────────────  TREMORS  ─────────────────────────────── */
+  {
+    id: "cb-tremors",
+    name: "Tremors",
+    image: "https://img.free-photo/hand-tremor_23-2149234601.jpg",
+    description:
+      "Exercise and coordination training to manage involuntary shaking associated with neurological conditions.",
+    data: () => (
+      <div className="space-y-4">
+        <h2 className="text-xl font-bold">What is Tremor Management?</h2>
+        <p>
+          Focuses on improving stability, strength and fine-motor control for
+          patients with essential tremor, Parkinson’s disease or post-stroke
+          tremors.
+        </p>
+
+        <h3 className="text-lg font-semibold">Benefits</h3>
+        <ul className="list-disc list-inside">
+          <li>Reduces tremor amplitude</li>
+          <li>Enhances hand-eye coordination</li>
+          <li>Improves daily task performance</li>
+        </ul>
+
+        <p className="mt-4">
+          Uses weighted tools, task-specific drills and relaxation techniques.
+        </p>
+      </div>
+    ),
+  },
+
+  /* ─────────────────────────────  INFLAMMATION  ───────────────────────────── */
+  {
+    id: "cb-inflammation",
+    name: "Inflammation",
+    image: "https://img.free-photo/inflamed-wrist-pain_23-2149234612.jpg",
+    description:
+      "Modalities and exercise to control acute or chronic inflammation and promote healing.",
+    data: () => (
+      <div className="space-y-4">
+        <h2 className="text-xl font-bold">What is Inflammation Management?</h2>
+        <p>
+          Utilizes cold/heat therapy, compression, gentle mobilization and
+          anti-inflammatory exercises to reduce swelling and pain.
+        </p>
+
+        <h3 className="text-lg font-semibold">Benefits</h3>
+        <ul className="list-disc list-inside">
+          <li>Decreases pain and swelling</li>
+          <li>Promotes tissue repair</li>
+          <li>Restores joint and muscle function</li>
+        </ul>
+
+        <p className="mt-4">
+          Ideal for tendonitis, bursitis and early-stage injuries.
+        </p>
+      </div>
+    ),
+  },
+
+  /* ────────────────────  CREPITUS – CRACKING JOINTS  ──────────────────────── */
+  {
+    id: "cb-crepitus",
+    name: "Crepitus - Cracking Joints",
+    image: "https://img.free-photo/knee-crepitus-clicking_23-2149234620.jpg",
+    description:
+      "Assessment and care for joints that crack or grind, improving alignment and lubrication.",
+    data: () => (
+      <div className="space-y-4">
+        <h2 className="text-xl font-bold">What is Crepitus Management?</h2>
+        <p>
+          Addresses clicking or grinding joints by enhancing cartilage health,
+          strengthening surrounding muscles and correcting movement patterns.
+        </p>
+
+        <h3 className="text-lg font-semibold">Benefits</h3>
+        <ul className="list-disc list-inside">
+          <li>Reduces painful cracking sensations</li>
+          <li>Improves joint tracking and stability</li>
+          <li>Supports long-term joint health</li>
+        </ul>
+
+        <p className="mt-4">
+          Common for knees, shoulders and ankles; includes strengthening,
+          stretching and manual therapy.
+        </p>
+      </div>
+    ),
   },
 ];

@@ -1,9 +1,9 @@
 export const appConfig = {
   appName: "Manya Physiotherapy",
-  facebook: "",
-  instagram: "",
-  twitter: "",
-  gmail: "example@gmail.com",
+  facebook: "https://www.facebook.com/share/16UDxHaPZX/",
+  instagram: "https://www.instagram.com/guptakuldeep9712/",
+  google: "https://share.google/8lobBRmdCSL98h2vl",
+  gmail: "guptakuldeep97@gmail.com",
   location: "97, Rajeev Bihar, Naubasta, Kanpur, UP",
   whatsapp: "+91- 6394777590",
   contact: "+91- 9598055535",

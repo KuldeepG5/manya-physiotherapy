@@ -9,7 +9,6 @@ export interface IHeroData {
 }
 
 const HeroBanner = () => {
-
   const heroData: IHeroData[] = [
     {
       id: 1,
@@ -29,10 +28,16 @@ const HeroBanner = () => {
       icon: () => <Laptop2 className="icon text-main" />,
       text: "Personalized Physio exercises at home with Continuous guidance & mentoring",
     },
+    {
+      id: 4,
+      title: "Stay and Physiotherapy",
+      icon: () => <Laptop2 className="icon text-main" />,
+      text: "Personalized Physio exercises at home with Continuous guidance & mentoring",
+    },
   ];
 
   return (
-    <section className="py-10 bg-main page-x-padding grid sm:grid-cols-3 divide-y-2 divide-x-0 sm:divide-y-0 sm:divide-x-2 divide-light/40">
+    <section className="py-10 bg-main page-x-padding grid sm:grid-cols-2 lg:grid-cols-4 divide-y-2 divide-x-0 sm:divide-y-0 sm:divide-x-2 divide-light/40">
       {heroData.map((item: IHeroData) => (
         <SectionCard key={item.id} data={item} />
       ))}
@@ -40,15 +45,16 @@ const HeroBanner = () => {
   );
 };
 
-const SectionCard = ({data} : {data: IHeroData}) => {
+const SectionCard = ({ data }: { data: IHeroData }) => {
   return (
-  <div className="py-4 px-8 flex-center gap-4 text-white">
-    <div className="p-5 rounded-full bg-light">{data.icon()}</div>
-    <div className="grid gap-3">
-      <h2 className="font-semibold">{data.title}</h2>
+    <div className="py-4 px-8 text-white">
+      <div className="flex-center mb-2 gap-3">
+        <div className="p-5 rounded-full bg-light">{data.icon()}</div>
+        <h2 className="font-semibold">{data.title}</h2>
+      </div>
       <p className="text-wrap">{data.text}</p>
     </div>
-  </div>);
+  );
 };
 
 export default HeroBanner;

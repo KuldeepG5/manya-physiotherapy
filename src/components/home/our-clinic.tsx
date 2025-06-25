@@ -12,9 +12,9 @@ const OurClinic = () => {
         thoroughly vetted and licensed Physiotherapists and Chiropractors are
         committed to delivering the highest standard of care.
       </p>
-      <div className="grid sm:grid-cols-5 h-96 bg-main rounded-4xl mt-16 overflow-hidden shadow-xl shadow-light">
-      <img src="/manya-physiotherapy.jpeg" className="w-full h-full object-cover col-span-2" />
-        <div className="p-8 col-span-3 text-white">
+      <div className="grid sm:grid-cols-5 bg-main rounded-4xl mt-16 overflow-hidden shadow-xl shadow-light">
+      <img src="/manya-physiotherapy.jpeg" className="w-full h-full object-cover sm:col-span-2" />
+        <div className="p-8 sm:col-span-3 text-white">
           <h2 className="text-3xl uppercase mb-4">Manya Physiotherapy Clinic</h2>
           <span className="flex-center justify-start gap-2">
             ⭐⭐⭐⭐⭐
