@@ -18,7 +18,7 @@ const StayAndPhysiotherapy = () => {
   return (
     <main className="page-container text-gray-800">
       <Header />
-      <Banner title="Stay and Physiotherapy" />
+      <Banner title="Full-Stay and Physiotherapy" />
 
       <section className="section-container px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         {[...Array(4)].map((_, index) => (

@@ -7,6 +7,7 @@ const AboutUs: React.FC = () => {
   return (
     <div className="w-full">
       <Banner title="About us" />
+
       <section className="bg-gradient-to-r from-white via-gray-50 to-white py-16 px-4 md:px-20">
         <motion.div
           className="grid md:grid-cols-2 gap-10 items-center"
@@ -40,6 +41,7 @@ const AboutUs: React.FC = () => {
           </motion.div>
         </motion.div>
       </section>
+
       <section className="bg-light py-16 px-4 md:px-20">
         <motion.div
           className="max-w-4xl mx-auto text-center"
@@ -56,6 +58,7 @@ const AboutUs: React.FC = () => {
           </p>
         </motion.div>
       </section>
+
       <section className="bg-white py-16 px-4 md:px-20">
         <motion.div
           className="max-w-5xl mx-auto"
@@ -95,9 +98,10 @@ const AboutUs: React.FC = () => {
           </ul>
         </motion.div>
       </section>
+
       <section className="py-16 px-4 md:px-20 bg-light">
         <motion.div
-          className="grid md:grid-cols-2 gap-10 items-center"
+          className="grid sm:grid-cols-2 gap-10 items-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
@@ -147,17 +151,25 @@ const AboutUs: React.FC = () => {
               {aboutUsContent.aboutFounder8}
             </p>
           </motion.div>
-              <img
-                src="/certificate-1.jpg"
-                className="h-full w-full object-cover"
-              />
-              <img
-                src="/certificate-2.jpg"
-                className="h-full w-full object-cover"
-              />
-           
         </motion.div>
+        <div className="mt-10 lg:mt-20 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {[
+            "/certificate-1.jpg",
+            "/certificate-2.jpg",
+            "/certificate-1.jpg",
+            "/certificate-2.jpg",
+          ].map((src) => (
+            <img
+              key={src + Math.random()}
+              src={src}
+              alt="Certificate"
+              className="h-full w-full object-cover pointer-events-none"
+              draggable={false}
+            />
+          ))}
+        </div>
       </section>
+
       <section className="py-12 px-4 md:px-20">
         <motion.div
           className="max-w-3xl mx-auto text-center"

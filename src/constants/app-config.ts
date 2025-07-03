@@ -5,8 +5,11 @@ export const appConfig = {
   google: "https://share.google/8lobBRmdCSL98h2vl",
   gmail: "guptakuldeep97@gmail.com",
   location: "97, Rajeev Bihar, Naubasta, Kanpur, UP",
+  googleMapLocation: "https://maps.app.goo.gl/Gi63iGmmtn33inw7A?g_st=aw",
   whatsapp: "+91- 6394777590",
+  whatsappLink: "https://wa.me/message/HO7GII3HWBMLG1",
   contact: "+91- 9598055535",
+  mobile: "+91- 6394777590",
 };
 
 export interface INavChildren {
@@ -39,18 +42,18 @@ export const navConfig: INavConfig[] = [
     link: "/therapies-offered",
     children: [
       {
-        id: 1,
+        id: 31,
         label: "Therapies Offered",
         link: "/therapies-offered",
       },
       {
-        id: 2,
+        id: 32,
         label: "Services Offered",
         link: "/service-offered",
       },
       {
-        id: 3,
-        label: "Stay And Physiotherapy",
+        id: 33,
+        label: "Full-Stay Physiotherapy Program",
         link: "/stay-and-physiotherapy",
       },
     ],
@@ -61,17 +64,17 @@ export const navConfig: INavConfig[] = [
     link: "/symptoms-we-treat",
     children: [
       {
-        id: 1,
+        id: 41,
         label: "Symptoms We Treat",
         link: "/symptoms-we-treat",
       },
       {
-        id: 2,
+        id: 42,
         label: "Conditions We Treat",
         link: "/conditions-we-treat",
       },
       {
-        id: 3,
+        id: 43,
         label: "Home Exercise",
         link: "/home-exercise",
       },
@@ -83,7 +86,7 @@ export const navConfig: INavConfig[] = [
     link: "/blog",
   },
   {
-    id: 5,
+    id: 6,
     label: "FAQs",
     link: "/faqs",
   },

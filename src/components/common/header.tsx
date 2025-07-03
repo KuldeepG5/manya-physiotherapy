@@ -15,14 +15,24 @@ const Header = () => {
   return (
     <header className="grid">
       <div className="py-2 grid gap-3 lg:gap-0 lg:flex-center lg:justify-between page-x-padding bg-main text-white font-semibold">
-        <div className="flex-center gap-2 cursor-default">
+        <a
+          href={`tel:${appConfig.contact.replace(/\s+/g, "")}`}
+          className="flex items-center gap-2 cursor-pointer hover:underline"
+          aria-label={`Call ${appConfig.contact}`}
+        >
           <PhoneCall className="icon" />
-          <p>Call : {appConfig.contact}</p>
-        </div>
-        <div className="flex-center gap-2 cursor-default">
+          <span>Call : {appConfig.contact}</span>
+        </a>
+        <a
+          href={`https://wa.me/${appConfig.whatsapp.replace(/\D/g, "")}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 cursor-pointer hover:underline"
+          aria-label={`Chat on WhatsApp ${appConfig.whatsapp}`}
+        >
           <LucideMessageCircle className="icon" />
-          <p>Whatsapp : {appConfig.whatsapp}</p>
-        </div>
+          <span>WhatsApp : {appConfig.whatsapp}</span>
+        </a>
         <div className="flex justify-center lg:justify-start space-x-3">
           <a
             rel="noopener noreferrer"
@@ -59,7 +69,7 @@ const Header = () => {
       <header className="bg-gray-50 py-6 px-3 lg:page-x-padding flex-center justify-between">
         <div className="flex-center">
           <Logo />
-          <span className="ml-3 text-2xl font-bold text-main">
+          <span className="ml-3 text-2xl font-extrabold text-main">
             Manya <br /> Physiotherapy
           </span>
         </div>
@@ -152,7 +162,7 @@ const MobileMenu = () => {
           className="inline-flex items-center mb-4 text-base font-semibold text-gray-500 dark:text-gray-400"
         >
           <Logo />
-          <span className="ml-3 text-2xl">
+          <span className="ml-3 text-2xl font-extrabold">
             Manya <br /> Physiotherapy
           </span>
         </h5>
