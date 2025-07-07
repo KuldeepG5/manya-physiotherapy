@@ -5,7 +5,7 @@ const OurClinic = () => {
   return (
     <section className="section-container">
       <h1 className="text-main text-center mb-12">
-        Advance Physiotherapy Clinics
+        Advance Physiotherapy Clinic
       </h1>
       <p className="max-w-3xl mx-auto">
         Whether you prefer in-clinic sessions or physiotherapy at home, our
