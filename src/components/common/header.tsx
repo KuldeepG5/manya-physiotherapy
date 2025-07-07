@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import {
   ChevronDown,
@@ -12,16 +12,11 @@ import { appConfig, navConfig, type INavConfig } from "@/constants/app-config";
 import Logo from "./logo";
 import CustomButton from "./button";
 
-/**
- * Header component with a custom Tailwind‑powered mobile drawer.
- * No external UI libraries (Flowbite, MUI, etc.) – just plain React + JSX.
- */
 const Header = () => {
   const navigate = useNavigate();
   return (
     <header className="grid">
-      {/* —————————————————— Utility bar —————————————————— */}
-      <div className="py-2 grid gap-3 lg:gap-0 lg:flex-center lg:justify-between page-x-padding bg-main text-white font-semibold">
+      <div className="px-4 justify-center py-2 grid gap-3 lg:gap-0 lg:flex-center lg:justify-between page-x-padding bg-main text-white font-semibold">
         <a
           href={`tel:${appConfig.contact.replace(/\s+/g, "")}`}
           className="flex items-center gap-2 hover:underline"
@@ -73,10 +68,6 @@ const Header = () => {
 };
 
 export default Header;
-
-/* -------------------------------------------------------------------------- */
-/*                               Sub‑components                               */
-/* -------------------------------------------------------------------------- */
 
 const Brand = () => (
   <div className="flex-center">
@@ -143,23 +134,28 @@ const NavItem = ({ item }: { item: INavConfig }) => {
   );
 };
 
-/**
- * MobileMenu — plain React implementation.
- * Uses CSS transforms to slide the drawer.
- */
 const MobileMenu = () => {
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
 
-  // Close the drawer and optionally navigate.
   const go = (path: string) => {
     setOpen(false);
     navigate(path);
   };
 
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   return (
     <>
-      {/* —— Toggle button —— */}
       <button
         aria-label="Open navigation"
         className="lg:hidden text-white bg-main rounded-full p-5"
@@ -168,7 +164,6 @@ const MobileMenu = () => {
         <Menu className="icon" />
       </button>
 
-      {/* —— Drawer —— */}
       <div
         aria-hidden={!open}
         className={`fixed top-0 right-0 z-40 h-screen w-full max-w-xs bg-white shadow-lg transition-transform duration-300 ${
@@ -224,7 +219,6 @@ const MobileMenu = () => {
         </ul>
       </div>
 
-      {/* —— Backdrop —— */}
       {open && (
         <div
           className="fixed inset-0 z-30 bg-black/50"
@@ -235,10 +229,6 @@ const MobileMenu = () => {
     </>
   );
 };
-
-/* -------------------------------------------------------------------------- */
-/*                            Helper components/SVGs                           */
-/* -------------------------------------------------------------------------- */
 
 type SocialLinkProps = { href: string; label: string; svg: React.ReactElement };
 const SocialLink = ({ href, label, svg }: SocialLinkProps) => (
@@ -253,7 +243,6 @@ const SocialLink = ({ href, label, svg }: SocialLinkProps) => (
   </a>
 );
 
-// SVGs are extracted to keep the markup readable.
 const facebookSVG = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
