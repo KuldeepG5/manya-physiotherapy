@@ -4,15 +4,18 @@ import InfiniteScroll, { specialties } from "./clinic-scrolling-image";
 const OurClinic = () => {
   return (
     <section className="page-container py-20 bg-light text-center">
-      <h1 className="text-main text-center mb-12">
-        Advance Physiotherapy Clinic
+      <h1 className="text-3xl sm:text-4xl font-bold text-main text-center mb-6">
+        Expert Physiotherapist in Kanpur – Reclaim Your Strength with Manya
+        Physiotherapy
       </h1>
-
-      <p className="max-w-3xl mx-auto text-center mb-8">
-        Whether you prefer in-clinic sessions or physiotherapy at home, our
-        thoroughly vetted and licensed Physiotherapists and Chiropractors are
-        committed to delivering the highest standard of care.
-      </p>
+      <h2 className="text-gray-700 text-base sm:text-lg max-w-3xl mx-auto text-center mb-10">
+        Trusted <strong>Neurophysiotherapist in Kanpur</strong> offering
+        advanced rehab care including{" "}
+        <strong>home physiotherapy services</strong>,
+        <strong>pediatric physiotherapy</strong>,{" "}
+        <strong>orthopedic therapy</strong>, and{" "}
+        <strong>stroke rehabilitation</strong> across the city.
+      </h2>
 
       <div className="max-w-4xl mx-auto text-gray-800">
         <h2 className="text-2xl font-semibold uppercase text-center mb-6">

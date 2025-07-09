@@ -13,8 +13,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-sports-physio",
     name: "Sports Physiotherapy",
-    image:
-      "/service/sports physiotherapy.jpg",
+    image: "/service/sports physiotherapy.jpg",
     description:
       "Injury prevention, treatment and performance enhancement for athletes of all levels.",
     data: () => (
@@ -23,17 +22,20 @@ export const servicesData: IServiceData[] = [
         <p>
           Sports Physiotherapy focuses on preventing, diagnosing and
           rehabilitating sports-related injuries while optimising athletic
-          performance. It is suitable for professional athletes, fitness enthusiasts, and anyone engaging in regular physical activity.
+          performance. It is suitable for professional athletes, fitness
+          enthusiasts, and anyone engaging in regular physical activity.
         </p>
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
           Therapists use acute-injury management, biomechanical analysis,
           sport-specific strengthening, taping and return-to-play protocols
-          tailored to each athlete. Treatment may include manual therapy, exercise prescription, and education on injury prevention.
+          tailored to each athlete. Treatment may include manual therapy,
+          exercise prescription, and education on injury prevention.
         </p>
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Athletes of all ages, weekend warriors, and individuals recovering from sports injuries or looking to enhance their performance.
+          Athletes of all ages, weekend warriors, and individuals recovering
+          from sports injuries or looking to enhance their performance.
         </p>
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
@@ -45,7 +47,9 @@ export const servicesData: IServiceData[] = [
         </ul>
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Expect a thorough assessment, a personalised treatment plan, and ongoing support to help you return to your sport safely and confidently.
+          Expect a thorough assessment, a personalised treatment plan, and
+          ongoing support to help you return to your sport safely and
+          confidently.
         </p>
       </div>
     ),
@@ -55,22 +59,39 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-peds-physio",
     name: "Pediatric Physiotherapy",
-    image:
-      "/service/pediatric physiotherapy.png",
+    image: "/service/pediatric physiotherapy.png",
     description:
       "Fun, age-appropriate therapy helping children reach motor-development milestones.",
     data: () => (
       <div className="space-y-4">
         <h2 className="text-xl font-bold">What is Pediatric Physiotherapy?</h2>
         <p>
-          Specialised care for infants, toddlers and adolescents addressing
-          developmental delays, neurological conditions and musculoskeletal
-          issues through playful, engaging exercise. Therapy is designed to be fun and motivating for children.
+          Pediatric Physiotherapy provides specialised care for infants,
+          toddlers, and adolescents, addressing developmental delays,
+          neurological conditions, and musculoskeletal issues through playful,
+          engaging exercise. Therapy is designed to be fun and motivating for
+          children. It is now widely available across the city, including
+          services by expert{" "}
+          <strong>
+            physiotherapists in Kalyanpur, Shastri Nagar, and Govind Nagar,
+            Kanpur
+          </strong>
+          .
         </p>
+
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Children with delayed milestones, cerebral palsy, muscular dystrophy, post-injury rehabilitation, or other movement disorders.
+          This therapy is ideal for children with delayed milestones, cerebral
+          palsy, muscular dystrophy, post-injury rehabilitation, or other
+          movement disorders. Parents looking for pediatric{" "}
+          <strong>
+            physiotherapists in Naubasta, Kidwai Nagar, Barra, Saket Nagar,
+            Kashev Nagar, Yashoda Nagar, and Gopal Nagar
+          </strong>
+          can now find trusted professionals who specialize in child-friendly,
+          family-centered care.
         </p>
+
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
           <li>Improves gross-motor skills and coordination</li>
@@ -79,9 +100,18 @@ export const servicesData: IServiceData[] = [
           <li>Promotes independence in daily activities</li>
           <li>Supports social and emotional development</li>
         </ul>
+
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Sessions are interactive and family-centered, with regular progress reviews and home exercise guidance.
+          Sessions are interactive and family-centered, with regular progress
+          reviews and home exercise guidance. Pediatric physiotherapy services
+          are now available through both clinics and home visits across various
+          parts of the city, including the growing demand in{" "}
+          <strong>
+            Kalyanpur, Shastri Nagar, Govind Nagar, Naubasta, Kidwai Nagar,
+            Barra, Saket Nagar, Kashev Nagar, Yashoda Nagar, and Gopal Nagar
+          </strong>
+          .
         </p>
       </div>
     ),
@@ -91,8 +121,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-home-physio",
     name: "Home Care Physiotherapy",
-    image:
-      "/service/home care physiotherapy.png",
+    image: "/service/home care physiotherapy.png",
     description:
       "Professional physiotherapy delivered in the comfort of a patient’s home.",
     data: () => (
@@ -101,11 +130,13 @@ export const servicesData: IServiceData[] = [
         <p>
           Tailored rehabilitation sessions for patients who are elderly,
           post-surgical or have mobility constraints, performed in their own
-          living space. This service ensures continuity of care and convenience for those unable to travel.
+          living space. This service ensures continuity of care and convenience
+          for those unable to travel.
         </p>
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Elderly individuals, patients recovering from surgery, or anyone with limited mobility or chronic conditions.
+          Elderly individuals, patients recovering from surgery, or anyone with
+          limited mobility or chronic conditions.
         </p>
         <h3 className="text-lg font-semibold">Advantages</h3>
         <ul className="list-disc list-inside">
@@ -117,7 +148,8 @@ export const servicesData: IServiceData[] = [
         </ul>
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          A physiotherapist will visit your home, assess your needs, and design a program that fits your environment and goals.
+          A physiotherapist will visit your home, assess your needs, and design
+          a program that fits your environment and goals.
         </p>
       </div>
     ),
@@ -127,22 +159,37 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-neuro-rehab",
     name: "Neuro Physiotherapy / Rehabilitation",
-    image:
-      "/service/neurological physio.png",
+    image: "/service/neurological physio.png",
     description:
       "Restores movement and function after stroke, spinal cord or other neurological conditions.",
     data: () => (
       <div className="space-y-4">
         <h2 className="text-xl font-bold">What is Neuro Physiotherapy?</h2>
         <p>
-          Uses neuroplasticity-based exercises, gait and balance training,
-          functional re-education and assistive technologies to maximise
-          independence. Therapy is tailored to each patient’s unique neurological condition.
+          Neuro Physiotherapy uses neuroplasticity-based exercises, gait and
+          balance training, functional re-education, and assistive technologies
+          to maximise independence. Therapy is tailored to each patient’s unique
+          neurological condition and is now widely accessible across the city,
+          including areas like{" "}
+          <strong>
+            Shyam Nagar, Koyla Nagar, Sanigawan, Jarauli, Karrahi, Khadepur,
+            Arra, Hanspuram, Galla Mandi, and Basant Vihar
+          </strong>
+          .
         </p>
+
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Individuals recovering from stroke, spinal cord injury, traumatic brain injury, Parkinson’s disease, or multiple sclerosis.
+          Individuals recovering from stroke, spinal cord injury, traumatic
+          brain injury, Parkinson’s disease, or multiple sclerosis can greatly
+          benefit. Those searching for skilled{" "}
+          <strong>
+            physiotherapists in Damodar Nagar, Vishwa Bank, Dabauli, Nirala
+            Nagar, Govind Nagar, Ratanlal Nagar, Gujaini, and Tatyatope Nagar
+          </strong>
+          can find specialized neuro rehab services in their local areas.
         </p>
+
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
           <li>Improves motor control and strength</li>
@@ -151,9 +198,15 @@ export const servicesData: IServiceData[] = [
           <li>Promotes independence in daily activities</li>
           <li>Reduces spasticity and muscle tightness</li>
         </ul>
+
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Expect a comprehensive assessment, goal setting, and a progressive rehabilitation plan with regular monitoring.
+          Expect a comprehensive assessment, clear goal setting, and a
+          progressive rehabilitation plan with regular monitoring. Patients
+          across Kanpur — whether in{" "}
+          <strong>Shyam Nagar, Gujaini, Jarauli, or Damodar Nagar</strong> — are
+          now accessing dedicated neuro physiotherapy care close to home,
+          helping them rebuild independence with expert guidance.
         </p>
       </div>
     ),
@@ -163,8 +216,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-surgical-rehab",
     name: "Pre and Post Surgical Physiotherapy / Rehabilitation",
-    image:
-      "/service/post surgical rehab.jpg",
+    image: "/service/post surgical rehab.jpg",
     description:
       "Optimises outcomes before and after orthopaedic, cardiac or abdominal surgery.",
     data: () => (
@@ -172,11 +224,13 @@ export const servicesData: IServiceData[] = [
         <h2 className="text-xl font-bold">Why Pre & Post-Surgical Physio?</h2>
         <p>
           Pre-hab strengthens key muscles and educates patients; post-op rehab
-          restores range, strength and function while minimising complications. Early intervention can lead to better surgical outcomes.
+          restores range, strength and function while minimising complications.
+          Early intervention can lead to better surgical outcomes.
         </p>
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Patients scheduled for or recovering from orthopaedic, cardiac, or abdominal surgery.
+          Patients scheduled for or recovering from orthopaedic, cardiac, or
+          abdominal surgery.
         </p>
         <h3 className="text-lg font-semibold">Key Goals</h3>
         <ul className="list-disc list-inside">
@@ -188,7 +242,8 @@ export const servicesData: IServiceData[] = [
         </ul>
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          You will receive a personalised plan before and after surgery, with close monitoring and support throughout your recovery.
+          You will receive a personalised plan before and after surgery, with
+          close monitoring and support throughout your recovery.
         </p>
       </div>
     ),
@@ -198,22 +253,38 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-geriatric-physio",
     name: "Geriatric Physiotherapy / Rehabilitation",
-    image:
-      "/service/Geriatric-rehabilitation.png",
+    image: "/service/Geriatric-rehabilitation.png",
     description:
       "Maintains mobility, strength and independence for older adults.",
     data: () => (
       <div className="space-y-4">
         <h2 className="text-xl font-bold">What is Geriatric Physiotherapy?</h2>
         <p>
-          Focuses on age-related conditions such as arthritis, osteoporosis,
-          balance deficits and post-fracture recovery with gentle strength,
-          flexibility and fall-prevention training. Therapy is adapted to the needs and abilities of older adults.
+          Geriatric Physiotherapy focuses on age-related conditions such as
+          arthritis, osteoporosis, balance deficits, and post-fracture recovery.
+          Through gentle strength, flexibility, and fall-prevention training,
+          therapy is carefully adapted to the needs and abilities of older
+          adults. Seniors can now access this service across many localities,
+          including{" "}
+          <strong>
+            Panki, Vijay Nagar, Kakadeo, Geeta Nagar, Gumti, Lajpat Nagar, Juhi,
+            Acharya Nagar, Rai Purwa, Kanpur Cantt, and Mall Road
+          </strong>
+          .
         </p>
+
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Seniors experiencing pain, weakness, balance issues, or recovering from injury or surgery.
+          Seniors experiencing pain, weakness, balance issues, or recovering
+          from injury or surgery. Dedicated{" "}
+          <strong>
+            physiotherapists in Nayaganj, General Ganj, Khalasi Line, and Tilak
+            Nagar
+          </strong>
+          offer specialized care for elderly individuals seeking compassionate
+          support for maintaining mobility and independence.
         </p>
+
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
           <li>Improves mobility and confidence</li>
@@ -222,9 +293,13 @@ export const servicesData: IServiceData[] = [
           <li>Promotes social engagement and activity</li>
           <li>Supports healthy aging</li>
         </ul>
+
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Expect a gentle, supportive approach with exercises and education tailored to your goals and health status.
+          Expect a gentle, supportive approach with exercises and education
+          tailored to your goals and health status. Whether you're located in{" "}
+          <strong>Juhi, Gumti, Kanpur Cantt, or Tilak Nagar</strong>, you can
+          now find trusted geriatric physiotherapy services near you.
         </p>
       </div>
     ),
@@ -234,8 +309,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-strength",
     name: "Strength Training",
-    image:
-      "/service/strength training.jpg",
+    image: "/service/strength training.jpg",
     description:
       "Progressive resistance programs designed by physiotherapists for safe strength gains.",
     data: () => (
@@ -246,11 +320,13 @@ export const servicesData: IServiceData[] = [
         <p>
           Evidence-based resistance exercise plans tailored to an individual’s
           goals, injury history and movement patterns, overseen by a
-          physiotherapist to ensure correct form. Programs are safe and progressive for all fitness levels.
+          physiotherapist to ensure correct form. Programs are safe and
+          progressive for all fitness levels.
         </p>
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Anyone looking to build strength, recover from injury, or improve overall fitness under professional supervision.
+          Anyone looking to build strength, recover from injury, or improve
+          overall fitness under professional supervision.
         </p>
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
@@ -262,7 +338,8 @@ export const servicesData: IServiceData[] = [
         </ul>
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Expect a personalised assessment, a structured program, and ongoing feedback to help you reach your strength goals safely.
+          Expect a personalised assessment, a structured program, and ongoing
+          feedback to help you reach your strength goals safely.
         </p>
       </div>
     ),
@@ -272,8 +349,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-advance-physio",
     name: "Advance Physiotherapy",
-    image:
-      "/service/advance physiotherapy.jpg",
+    image: "/service/advance physiotherapy.jpg",
     description:
       "Cutting-edge modalities such as laser, shockwave and dry needling for rapid recovery.",
     data: () => (
@@ -282,11 +358,13 @@ export const servicesData: IServiceData[] = [
         <p>
           Integrates modern evidence-based technologies—laser therapy,
           shockwave, dry needling, electrotherapy—with manual skills and
-          exercise for faster, more complete rehabilitation. These modalities are used to target pain, inflammation, and tissue healing.
+          exercise for faster, more complete rehabilitation. These modalities
+          are used to target pain, inflammation, and tissue healing.
         </p>
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Individuals with chronic pain, sports injuries, or those not responding to conventional therapy.
+          Individuals with chronic pain, sports injuries, or those not
+          responding to conventional therapy.
         </p>
         <h3 className="text-lg font-semibold">Key Advantages</h3>
         <ul className="list-disc list-inside">
@@ -298,7 +376,8 @@ export const servicesData: IServiceData[] = [
         </ul>
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Your physiotherapist will select the most appropriate modalities for your condition and monitor your progress closely.
+          Your physiotherapist will select the most appropriate modalities for
+          your condition and monitor your progress closely.
         </p>
       </div>
     ),
@@ -308,8 +387,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-womens-health",
     name: "Women's Health Physiotherapy",
-    image:
-      "/service/women health physio.jpeg",
+    image: "/service/women health physio.jpeg",
     description:
       "Specialised care for pelvic floor, prenatal and postnatal conditions.",
     data: () => (
@@ -318,14 +396,30 @@ export const servicesData: IServiceData[] = [
           What is Women's Health Physiotherapy?
         </h2>
         <p>
-          Addresses pelvic-floor dysfunction, incontinence, diastasis recti,
-          pregnancy-related pain and postnatal recovery using tailored exercise
-          and manual therapy. Care is sensitive and confidential.
+          Women's Health Physiotherapy addresses pelvic-floor dysfunction,
+          incontinence, diastasis recti, pregnancy-related pain, and postnatal
+          recovery using tailored exercise and manual therapy. Care is always
+          delivered in a sensitive and confidential manner. These services are
+          now accessible across key neighborhoods like{" "}
+          <strong>
+            Shyam Nagar, Koyla Nagar, Sanigawan, Jarauli, Karrahi, Khadepur,
+            Arra, Hanspuram, Galla Mandi, and Basant Vihar
+          </strong>
+          .
         </p>
+
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Women experiencing pelvic pain, incontinence, pregnancy or postpartum issues, or recovering from gynaecological surgery.
+          Women experiencing pelvic pain, incontinence, pregnancy or postpartum
+          issues, or recovering from gynaecological surgery. Trusted
+          physiotherapy is available in{" "}
+          <strong>
+            Damodar Nagar, Vishwa Bank, Dabauli, Nirala Nagar, Govind Nagar,
+            Ratanlal Nagar, Gujaini, and Tatyatope Nagar
+          </strong>
+          , ensuring expert care is within reach.
         </p>
+
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
           <li>Restores pelvic floor strength & control</li>
@@ -334,9 +428,14 @@ export const servicesData: IServiceData[] = [
           <li>Improves quality of life and confidence</li>
           <li>Provides education on self-care and prevention</li>
         </ul>
+
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Expect a private assessment, a supportive environment, and a plan tailored to your unique needs and goals.
+          Expect a private assessment, a supportive environment, and a plan
+          tailored to your unique needs and goals. Manya Physiotherapy ensures
+          women in all areas—from{" "}
+          <strong>Sanigawan and Dabauli to Govind Nagar and Galla Mandi</strong>
+          —receive high-quality, compassionate care.
         </p>
       </div>
     ),
@@ -346,8 +445,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-msk-physio",
     name: "Musculoskeletal Physiotherapy",
-    image:
-      "https://img.freepik.com/free-photo/therapist-manual-therapy_23-2149212413.jpg",
+    image: "/service/musculoskeletal physiotherapy.jpeg",
     description:
       "Assessment and treatment of muscles, joints, ligaments and tendons.",
     data: () => (
@@ -358,11 +456,13 @@ export const servicesData: IServiceData[] = [
         <p>
           Combines detailed assessment, manual therapy, exercise prescription
           and patient education to resolve pain and restore optimal movement
-          across the entire musculoskeletal system. Suitable for acute and chronic conditions.
+          across the entire musculoskeletal system. Suitable for acute and
+          chronic conditions.
         </p>
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Anyone with joint pain, muscle strains, ligament injuries, or chronic musculoskeletal issues.
+          Anyone with joint pain, muscle strains, ligament injuries, or chronic
+          musculoskeletal issues.
         </p>
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
@@ -374,7 +474,8 @@ export const servicesData: IServiceData[] = [
         </ul>
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          You will receive a thorough assessment, hands-on treatment, and a home exercise plan to support your recovery.
+          You will receive a thorough assessment, hands-on treatment, and a home
+          exercise plan to support your recovery.
         </p>
       </div>
     ),
@@ -384,7 +485,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-vestibular-rehab",
     name: "Vestibular Rehabilitation",
-    image: "https://img.free-photo/vestibular-therapy_23-2149212403.jpg",
+    image: "/service/Vestibular-Physical-Therapy.jpg",
     description:
       "Specialised therapy to reduce dizziness and improve balance in vestibular disorders.",
     data: () => (
@@ -393,14 +494,27 @@ export const servicesData: IServiceData[] = [
           What is Vestibular Rehabilitation?
         </h2>
         <p>
-          Tailored eye-head coordination, balance and gait exercises that
-          promote central compensation for conditions like BPPV, labyrinthitis
-          and post-concussion dizziness. Therapy is evidence-based and progressive.
+          Vestibular Rehabilitation involves tailored eye-head coordination,
+          balance, and gait exercises that promote central compensation for
+          conditions like BPPV, labyrinthitis, and post-concussion dizziness.
+          This evidence-based and progressive therapy is now available across
+          multiple local areas such as{" "}
+          <strong>
+            Panki, Vijay Nagar, Kakadeo, Geeta Nagar, Gumti, Lajpat Nagar, Juhi,
+            Acharya Nagar, Rai Purwa, Kanpur Cantt, and Mall Road
+          </strong>
+          .
         </p>
+
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Individuals with vertigo, dizziness, balance disorders, or recovering from vestibular injuries.
+          Vestibular physiotherapy is ideal for individuals with vertigo,
+          dizziness, balance disorders, or recovering from vestibular injuries.
+          Our experienced team also offers dedicated support in{" "}
+          <strong>Nayaganj, General Ganj, Khalasi Line, and Tilak Nagar</strong>{" "}
+          to ensure care is easily accessible across Kanpur.
         </p>
+
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
           <li>Reduces vertigo and imbalance</li>
@@ -409,9 +523,14 @@ export const servicesData: IServiceData[] = [
           <li>Reduces risk of falls</li>
           <li>Promotes faster recovery from vestibular events</li>
         </ul>
+
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Expect a detailed assessment, a customised exercise plan, and regular progress checks to ensure optimal results.
+          Expect a detailed assessment, a customised exercise plan, and regular
+          progress checks to ensure optimal results. Whether you're based in{" "}
+          <strong>Juhi, Kanpur Cantt, or Khalasi Line</strong>, our
+          physiotherapists are committed to helping you regain balance and
+          stability.
         </p>
       </div>
     ),
@@ -421,7 +540,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-craniosacral",
     name: "Craniosacral Therapy",
-    image: "https://img.freepik.com/free-photo/craniosacral-head-hold_23-2149212391.jpg",
+    image: "/service/cranioscaral therapy 1.jpg",
     description:
       "Gentle hands-on technique aimed at relieving tension in the craniosacral system.",
     data: () => (
@@ -430,11 +549,13 @@ export const servicesData: IServiceData[] = [
         <p>
           Light touch is applied to evaluate and enhance the craniosacral
           rhythm, releasing deep fascial restrictions around the brain and
-          spinal cord to encourage self-healing. The technique is gentle and relaxing.
+          spinal cord to encourage self-healing. The technique is gentle and
+          relaxing.
         </p>
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Individuals with chronic pain, headaches, stress, or nervous system imbalances.
+          Individuals with chronic pain, headaches, stress, or nervous system
+          imbalances.
         </p>
         <h3 className="text-lg font-semibold">Reported Benefits</h3>
         <ul className="list-disc list-inside">
@@ -446,7 +567,8 @@ export const servicesData: IServiceData[] = [
         </ul>
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Sessions are calming and non-invasive, with most clients experiencing deep relaxation and relief from tension.
+          Sessions are calming and non-invasive, with most clients experiencing
+          deep relaxation and relief from tension.
         </p>
       </div>
     ),
@@ -456,8 +578,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-posture",
     name: "Postural Correction",
-    image:
-      "https://img.freepik.com/free-photo/posture-correction-therapy_23-2149212380.jpg",
+    image: "/service/postural correction.png",
     description:
       "Assessment and exercises to correct poor posture and related pain.",
     data: () => (
@@ -466,14 +587,30 @@ export const servicesData: IServiceData[] = [
           What is Postural Correction Therapy?
         </h2>
         <p>
-          Identifies dysfunctional movement patterns and muscular imbalances,
-          then prescribes targeted stretching, strengthening and ergonomic
-          advice to realign posture. Education on healthy habits is also provided.
+          Postural Correction Therapy identifies dysfunctional movement patterns
+          and muscular imbalances, then prescribes targeted stretching,
+          strengthening, and ergonomic advice to realign posture. Education on
+          healthy habits is also provided. This service is available across
+          several trusted{" "}
+          <strong>
+            physiotherapy centres in Kakadeo, Swaroop Nagar, Civil Lines,
+            Nawabganj, Azad Nagar, Vishnupuri, Ashok Nagar, and Harsh Nagar
+          </strong>
+          .
         </p>
+
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Anyone experiencing neck, back, or shoulder pain, or those wanting to improve posture and prevent future issues.
+          This therapy is ideal for anyone experiencing neck, back, or shoulder
+          pain, or those wanting to improve posture and prevent future issues.
+          We also provide postural correction at our{" "}
+          <strong>
+            physiotherapy centres in Kalyanpur, Shastri Nagar, Govind Nagar, and
+            throughout Kanpur
+          </strong>
+          , making expert care easily accessible across the city.
         </p>
+
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
           <li>Reduces neck & back pain</li>
@@ -482,9 +619,15 @@ export const servicesData: IServiceData[] = [
           <li>Prevents postural-related injuries</li>
           <li>Boosts energy and focus</li>
         </ul>
+
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          You will receive a posture assessment, corrective exercises, and ergonomic advice for home and work environments.
+          You will receive a posture assessment, corrective exercises, and
+          ergonomic advice for both home and work environments. Our
+          physiotherapists in{" "}
+          <strong>Azad Nagar, Vishnupuri, and Kalyanpur</strong> are trained in
+          helping individuals develop lifelong posture awareness and functional
+          mobility.
         </p>
       </div>
     ),
@@ -494,7 +637,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-gait-training",
     name: "Gait Training",
-    image: "https://img.freepik.com/free-photo/gait-training-treadmill_23-2149212371.jpg",
+    image: "/service/gait training.jpg",
     description:
       "Exercises and technologies to improve walking pattern, speed and safety.",
     data: () => (
@@ -503,11 +646,13 @@ export const servicesData: IServiceData[] = [
         <p>
           Utilises treadmill-based, over-ground and balance exercises—often with
           harness or robotic support—to correct abnormal walking mechanics after
-          injury, surgery or neurological events. Training is progressive and goal-oriented.
+          injury, surgery or neurological events. Training is progressive and
+          goal-oriented.
         </p>
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          Individuals with walking difficulties due to injury, surgery, stroke, or neurological conditions.
+          Individuals with walking difficulties due to injury, surgery, stroke,
+          or neurological conditions.
         </p>
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
@@ -519,7 +664,8 @@ export const servicesData: IServiceData[] = [
         </ul>
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          Expect a detailed gait analysis, a tailored exercise plan, and regular progress reviews to help you walk better and safer.
+          Expect a detailed gait analysis, a tailored exercise plan, and regular
+          progress reviews to help you walk better and safer.
         </p>
       </div>
     ),
@@ -529,7 +675,7 @@ export const servicesData: IServiceData[] = [
   {
     id: "svc-diabetic-foot",
     name: "Diabetic Foot / Ulcer Rehabilitation",
-    image: "https://img.freepik.com/free-photo/diabetic-foot-care_23-2149212360.jpg",
+    image: "/service/diabetic foot.jpg",
     description:
       "Comprehensive care to heal ulcers, improve circulation and prevent re-ulceration in diabetic feet.",
     data: () => (
@@ -538,14 +684,30 @@ export const servicesData: IServiceData[] = [
           What is Diabetic Foot / Ulcer Rehabilitation?
         </h2>
         <p>
-          Combines wound-care principles, off-loading, circulation-boosting
-          exercises, gait modification and patient education to promote ulcer
-          healing and protect at-risk tissue. Prevention and early intervention are key.
+          Diabetic Foot Rehabilitation combines wound-care principles,
+          off-loading, circulation-boosting exercises, gait modification, and
+          patient education to promote ulcer healing and protect at-risk tissue.
+          Prevention and early intervention are key. These services are offered
+          at our{" "}
+          <strong>
+            physiotherapy centres in Naubasta, Kidwai Nagar, Barra, Saket Nagar,
+            Kashev Nagar, Yashoda Nagar, and Gopal Nagar
+          </strong>
+          .
         </p>
+
         <h3 className="text-lg font-semibold">Who is it for?</h3>
         <p>
-          People with diabetes at risk of foot ulcers, or those recovering from foot wounds or amputations.
+          This program is ideal for people with diabetes who are at risk of
+          developing foot ulcers, or those currently recovering from foot wounds
+          or amputations. Our{" "}
+          <strong>
+            physiotherapy centres in Shyam Nagar, Koyla Nagar, Sanigawa,
+            Jarauli, Karrahi, and Khadepur
+          </strong>{" "}
+          are equipped to provide comprehensive care.
         </p>
+
         <h3 className="text-lg font-semibold">Benefits</h3>
         <ul className="list-disc list-inside">
           <li>Accelerates wound closure</li>
@@ -554,9 +716,13 @@ export const servicesData: IServiceData[] = [
           <li>Enhances mobility and independence</li>
           <li>Provides education on foot care and prevention</li>
         </ul>
+
         <h3 className="text-lg font-semibold">What to Expect?</h3>
         <p>
-          You will receive a comprehensive assessment, a personalised care plan, and ongoing support to manage your foot health.
+          You will receive a comprehensive assessment, a personalised care plan,
+          and ongoing support to manage your foot health. Our clinics across
+          Kanpur ensure easy access to expert diabetic foot therapy close to
+          your locality.
         </p>
       </div>
     ),

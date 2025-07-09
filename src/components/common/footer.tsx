@@ -8,19 +8,31 @@ const Footer = () => {
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
           <a rel="noopener noreferrer" href="/" className="grid gap-3">
-            <div className="flex items-center justify-start gap-3 rounded-full ">
+            <div className="flex items-center justify-start gap-3 rounded-full">
               <Logo isLight={false} />
-            <span className="text-3xl font-bold">
-              Manya <br/> Physiotherapy
-            </span>
+              <span className="text-3xl font-bold">
+                Manya <br /> Physiotherapy
+              </span>
             </div>
             <p>
               Manya Physiotherapy Center offers advanced, personalized
               physiotherapy treatments by seamlessly integrating in-clinic care,
-              home visits, and tele-rehabilitation for holistic recovery.
+              home visits, and tele-rehabilitation for holistic recovery. We
+              proudly serve multiple locations across the city, including{" "}
+              <strong>
+                Kakadeo, Swaroop Nagar, Civil Lines, Nawabganj, Azad Nagar,
+                Vishnupuri, Ashok Nagar, Harsh Nagar
+              </strong>
+              , as well as{" "}
+              <strong>
+                Kalyanpur, Shastri Nagar, Govind Nagar, Naubasta, Kidwai Nagar,
+                Barra, Saket Nagar, Kashev Nagar, Yashoda Nagar, and Gopal Nagar
+              </strong>
+              .
             </p>
           </a>
         </div>
+
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4 lg:pl-10">
           <div className="space-y-3">
             <h3 className="tracking-wide uppercase">Useful Links</h3>
@@ -71,18 +83,27 @@ const Footer = () => {
             <h3 className="uppercase ">Contact</h3>
             <ul className="space-y-4">
               <li className="flex-center justify-start gap-1 link-animation">
-                 
-              <MapPin className="icon" />   
-               {appConfig.location}
+                <MapPin className="icon" />
+                {appConfig.location}
               </li>
               <li className="link-animation">
-                <a  className="flex-center justify-start gap-1" rel="noopener noreferrer" type="mail" href={appConfig.gmail}>
+                <a
+                  className="flex-center justify-start gap-1"
+                  rel="noopener noreferrer"
+                  type="mail"
+                  href={appConfig.gmail}
+                >
                   <Mail className="icon" />
                   {appConfig.gmail}
                 </a>
               </li>
               <li className="link-animation">
-                  <a  className="flex-center justify-start gap-1" rel="noopener noreferrer" type="mail" href={appConfig.contact}>
+                <a
+                  className="flex-center justify-start gap-1"
+                  rel="noopener noreferrer"
+                  type="mail"
+                  href={appConfig.contact}
+                >
                   <PhoneCall className="icon" />
                   {appConfig.contact}
                 </a>
@@ -127,8 +148,19 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-6 text-sm text-center flex items-center justify-between">
-        <span>Made by <a href="https://www.code-aspire.com/" target="_blank" className="hover:underline">Codeaspire</a></span>
-        <span>© {new Date().getFullYear()} Manya Physiotherapy. All rights reserved.</span>
+        <span>
+          Made by{" "}
+          <a
+            href="https://www.code-aspire.com/"
+            target="_blank"
+            className="hover:underline"
+          >
+            Codeaspire
+          </a>
+        </span>
+        <span>
+          © {new Date().getFullYear()} Manya Physiotherapy. All rights reserved.
+        </span>
       </div>
     </footer>
   );

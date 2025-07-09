@@ -12,8 +12,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "8eb96cfb-72dd-4c5f-b0ed-953bdce90623",
     name: "Body Weakness",
-    image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+    image: "/symptoms/body weakness.jpg",
     description:
       "Improves overall strength, endurance, and muscle coordination to combat general body weakness.",
     data: () => {
@@ -25,7 +24,9 @@ export const symptomsData: ITherapyData[] = [
             designed to address muscular weakness, fatigue, and lack of
             endurance caused by inactivity, illness, aging, or neurological
             conditions. It aims to restore strength, mobility, and overall
-            physical function.
+            physical function. Many patients seeking the{" "}
+            <strong>best physiotherapy clinic in Kanpur</strong> opt for this
+            therapy to regain mobility and independence.
           </p>
 
           <h3 className="text-lg font-semibold">How it Works</h3>
@@ -34,7 +35,11 @@ export const symptomsData: ITherapyData[] = [
             functional exercises, balance work, and manual techniques.
             Therapists assess the patient’s muscle strength and endurance levels
             and customize a program that gradually increases physical
-            capability.
+            capability. A <strong>top rated physiotherapist in Kanpur</strong>{" "}
+            will often incorporate evidence-based methods to ensure measurable
+            progress. If you're searching for a{" "}
+            <strong>physiotherapist near me in Kanpur</strong>, make sure they
+            are experienced in progressive rehabilitation like this.
           </p>
 
           <h3 className="text-lg font-semibold">Benefits</h3>
@@ -59,6 +64,20 @@ export const symptomsData: ITherapyData[] = [
             Body Weakness Therapy is a holistic and gradual approach tailored to
             individual needs. It plays a key role in restoring independence and
             enhancing quality of life through improved physical performance.
+            Whether you are working with an{" "}
+            <strong>experienced physiotherapist in Kanpur</strong> or exploring{" "}
+            <strong>physiotherapy near me in Kanpur</strong> for initial
+            consultation, it’s important to choose someone with a deep
+            understanding of weakness rehabilitation.
+          </p>
+
+          <p>
+            If you're unsure where to begin, consider reaching out to a{" "}
+            <strong>top physiotherapist in Kanpur</strong> or a highly reviewed{" "}
+            <strong>physiotherapist in Kanpur</strong> known for patient-focused
+            care. The <strong>best physiotherapist in Kanpur</strong> will guide
+            you through a safe and structured recovery plan tailored to your
+            goals.
           </p>
         </div>
       );
@@ -67,8 +86,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "c182e16b-4114-4a2d-aeb7-f4c3d403f202",
     name: "Unable to Walk",
-    image:
-      "https://img.freepik.com/free-photo/physiotherapist-helping-old-man-walk-with-walker_23-2149212412.jpg?t=st=1719332855~exp=1719336455~hmac=bf012e985f7e9285d9602b77ec68ea4c4a5c979f3b88dcbcf4ce81c579349ae5&w=826",
+    image: "/symptoms/unable to walk.jpg",
     description:
       "Focused rehabilitation program to restore walking ability through strength, balance, and coordination training.",
     data: () => {
@@ -81,7 +99,13 @@ export const symptomsData: ITherapyData[] = [
             This therapy focuses on individuals who have lost their ability to
             walk due to injury, surgery, neurological disorders, or prolonged
             immobility. The goal is to restore functional ambulation through
-            targeted physical therapy techniques.
+            targeted physical therapy techniques. Manya Physiotherapy offers
+            specialized rehabilitation programs across our{" "}
+            <strong>
+              physiotherapy centres in Panki, Vijay Nagar, Kakadeo, Geeta Nagar,
+              Gumti, Lajpat Nagar
+            </strong>{" "}
+            and surrounding areas.
           </p>
 
           <h3 className="text-lg font-semibold">How it Works</h3>
@@ -90,7 +114,13 @@ export const symptomsData: ITherapyData[] = [
             correction exercises, assistive device training (e.g., walkers,
             canes), and neuromuscular re-education. A physiotherapist evaluates
             the patient’s condition and tailors a progressive plan to regain
-            independent walking ability.
+            independent walking ability. Our{" "}
+            <strong>
+              physiotherapy centres in Damodar Nagar, Vishwa Bank, Dabauli,
+              Nirala Nagar, Govind Nagar, Ratanlal Nagar, Gujaini, and Tatyatope
+              Nagar
+            </strong>{" "}
+            are equipped to provide comprehensive mobility support.
           </p>
 
           <h3 className="text-lg font-semibold">Benefits</h3>
@@ -111,8 +141,10 @@ export const symptomsData: ITherapyData[] = [
 
           <p className="mt-4">
             Recovery from loss of mobility requires consistency and expert
-            guidance. This therapy is designed to help patients walk again with
-            independence and dignity.
+            guidance. We proudly serve patients from{" "}
+            <strong>Arra, Hanspuram, Galla Mandi, and Basant Vihar</strong> with
+            personalized rehabilitation programs that help patients walk again
+            with independence and dignity.
           </p>
         </div>
       );
@@ -121,8 +153,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-01-knee-pain",
     name: "Knee Pain",
-    image:
-      "https://img.freepik.com/free-photo/woman-holding-her-knee-pain_23-2149225467.jpg",
+    image: "/symptoms/knee pain 2.jpg",
     description:
       "Assessment and treatment for knee pain caused by injury, arthritis, or overuse.",
     data: () => (
@@ -131,14 +162,27 @@ export const symptomsData: ITherapyData[] = [
         <p>
           Personalized physiotherapy care aimed at reducing knee pain, improving
           stability, and restoring mobility, suitable for injuries,
-          osteoarthritis, and post-operative recovery.
+          osteoarthritis, and post-operative recovery. Manya Physiotherapy
+          offers knee pain therapy across
+          <strong>
+            {" "}
+            Juhi, Acharya Nagar, Rai Purwa, Kanpur Cant, and Mall Road
+          </strong>
+          , helping patients regain confidence in movement.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
           A combination of targeted exercises, manual therapy, taping, and
           education is used to strengthen supporting muscles, align
-          biomechanics, and reduce stress on the knee joint.
+          biomechanics, and reduce stress on the knee joint. You can access
+          these services at our{" "}
+          <strong>
+            physiotherapy centres in Nayaganj, General Ganj, Khalasi Line, and
+            Tilak Nagar
+          </strong>
+          , where experienced therapists guide patients through individualized
+          care plans.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
@@ -159,7 +203,12 @@ export const symptomsData: ITherapyData[] = [
 
         <p className="mt-4">
           Knee pain therapy helps patients regain functional mobility and return
-          to daily activities without discomfort.
+          to daily activities without discomfort. Visit our{" "}
+          <strong>
+            physiotherapy clinic in Kakadeo, Swaroop Nagar, Civil Lines,
+            Nawabganj, Azad Nagar, Vishnupuri, Ashok Nagar, or Harsh Nagar
+          </strong>{" "}
+          for comprehensive and trusted care.
         </p>
       </div>
     ),
@@ -167,8 +216,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-02-muscle-spasm",
     name: "Muscle Spasm",
-    image:
-      "https://img.freepik.com/free-photo/close-up-muscle-cramp_23-2149023456.jpg",
+    image: "/symptoms/muscle spasm.png",
     description:
       "Relieves involuntary muscle contractions causing pain and stiffness.",
     data: () => (
@@ -177,14 +225,25 @@ export const symptomsData: ITherapyData[] = [
         <p>
           This treatment addresses sudden involuntary muscle contractions
           (spasms) by using modalities such as cryotherapy, TENS, stretching,
-          manual therapy, and education.
+          manual therapy, and education. At our
+          <strong>
+            {" "}
+            physiotherapy clinics in Kalyanpur, Shastri Nagar, Govind Nagar,
+            Kanpur
+          </strong>
+          , we offer effective and personalized care for managing muscle spasms.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
           A trained therapist combines cold therapy, gentle stretches,
           electrical stimulation, and massage to alleviate contraction and
-          restore normal muscle length and function.
+          restore normal muscle length and function. Our{" "}
+          <strong>
+            physiotherapy clinics in Naubasta, Kidwai Nagar, Barra, Saket Nagar,
+            Kashev Nagar, Yashoda Nagar, and Gopal Nagar
+          </strong>{" "}
+          provide comprehensive spasm management with modern modalities.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
@@ -203,7 +262,13 @@ export const symptomsData: ITherapyData[] = [
 
         <p className="mt-4">
           Therapy focuses on breaking the cycle of spasm and restoring muscle
-          comfort and function.
+          comfort and function. We also serve patients at our
+          <strong>
+            {" "}
+            physiotherapy clinics in Shyam Nagar, Koyla Nagar, Sanigawa,
+            Jarauli, Karrahi, and Khadepur
+          </strong>{" "}
+          for localized and convenient care.
         </p>
       </div>
     ),
@@ -211,8 +276,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-03-concussion",
     name: "Concussion",
-    image:
-      "https://img.freepik.com/free-photo/headache-concept_23-2148623456.jpg",
+    image: "/service/Geriatric-rehabilitation.png",
     description:
       "Post-head injury rehabilitation to recover balance, cognition, and neck function.",
     data: () => (
@@ -223,14 +287,26 @@ export const symptomsData: ITherapyData[] = [
         <p>
           A structured rehab program for mild traumatic brain injury to restore
           balance, neck mobility, vision, and cognitive function following head
-          or whiplash injury.
+          or whiplash injury. Our{" "}
+          <strong>
+            physiotherapy clinics in Panki, Vijay Nagar, Kakadeo, Geeta Nagar,
+            Gumti, Lajpat Nagar, Juhi, Acharya Nagar, Rai Purwa, Kanpur Cant,
+            and Mall Road
+          </strong>{" "}
+          offer specialized concussion rehabilitation services.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
           Therapists assess vestibular, cervical, visual, and cognitive
           deficits, then apply manual therapy, balance training, visual-motor
-          exercises, and graded physical activity.
+          exercises, and graded physical activity. We also cater to patients at
+          our{" "}
+          <strong>
+            physiotherapy clinics in Damodar Nagar, Vishwa Bank, Dabauli, Nirala
+            Nagar, Govind Nagar, Ratanlal Nagar, Gujaini, and Tatyatope Nagar
+          </strong>{" "}
+          for convenient access to expert care.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
@@ -249,8 +325,11 @@ export const symptomsData: ITherapyData[] = [
         </ul>
 
         <p className="mt-4">
-          Concussion rehab supports safe return to daily life, school, or sport
-          with a progressive recovery plan.
+          Concussion rehab supports a safe return to daily life, school, or
+          sport with a progressive recovery plan. Our services are also
+          available in{" "}
+          <strong>Arra, Hanspuram, Galla Mandi, and Basant Vihar</strong> to
+          ensure wide coverage across Kanpur.
         </p>
       </div>
     ),
@@ -258,8 +337,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-04-shortness-of-breath",
     name: "Shortness of Breath",
-    image:
-      "https://img.freepik.com/free-photo/woman-experiencing-breathing-difficulty_23-2149234567.jpg",
+    image: "/symptoms/shortness of breath.jpg",
     description:
       "Physiotherapy for breathing difficulties using breathing exercises and airway techniques.",
     data: () => (
@@ -270,13 +348,21 @@ export const symptomsData: ITherapyData[] = [
         <p>
           A respiratory-focused physiotherapy program to improve breathing
           efficiency, lung clearance, and oxygen intake in conditions like COPD,
-          asthma, or post-COVID weak lungs.
+          asthma, or post-COVID weak lungs. This therapy is offered at our{" "}
+          <strong>
+            physiotherapy clinics in Nayaganj, General Ganj, Khalasi Line, and
+            Tilak Nagar
+          </strong>
+          , making it accessible across Kanpur.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
           Techniques include diaphragmatic breathing, pacing, positioning,
-          airway clearance, and, where needed, inspiratory muscle training.
+          airway clearance, and, where needed, inspiratory muscle training. For
+          patients unable to visit a clinic, we provide{" "}
+          <strong>home visit physiotherapist services in Kanpur</strong> to
+          ensure consistent respiratory care at their convenience.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
@@ -296,7 +382,13 @@ export const symptomsData: ITherapyData[] = [
 
         <p className="mt-4">
           This therapy empowers patients to breathe more effectively and helps
-          them resume daily activities with confidence.
+          them resume daily activities with confidence.{" "}
+          <strong>
+            Home visit physiotherapists are also available in Kakadeo, Swaroop
+            Nagar, Civil Lines, Nawabganj, Azad Nagar, Vishnupuri, Ashok Nagar,
+            and Harsh Nagar
+          </strong>{" "}
+          for tailored care in the comfort of your home.
         </p>
       </div>
     ),
@@ -304,8 +396,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-muscle-stiffness",
     name: "Muscle Stiffness",
-    image:
-      "https://img.freepik.com/free-photo/close-up-muscle-cramp_23-2149023456.jpg",
+    image: "/symptoms/muscle stiffness.jpg",
     description:
       "Relieves tight, hard-to-move muscles using stretching, massage, and modalities.",
     data: () => (
@@ -343,8 +434,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-headache",
     name: "Headache",
-    image:
-      "https://img.freepik.com/free-photo/headache-concept_23-2148623456.jpg",
+    image: "/symptoms/headache 1.jpg",
     description:
       "Physiotherapy techniques to relieve tension, cervicogenic and migraine-type headaches.",
     data: () => (
@@ -382,7 +472,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-neck-pain",
     name: "Neck Pain",
-    image: "https://img.free-photo/person-holding-neck-pain_23-2149234562.jpg",
+    image: "/symptoms/neck pain.jpg",
     description:
       "Restores neck mobility and reduces pain through manual therapy, exercise and ergonomic advice.",
     data: () => (
@@ -390,15 +480,26 @@ export const symptomsData: ITherapyData[] = [
         <h2 className="text-xl font-bold">What is Neck Pain Therapy?</h2>
         <p>
           A program combining joint mobilization, muscle release, traction,
-          posture education and strengthening to ease acute or chronic neck
-          pain.
+          posture education, and strengthening to ease acute or chronic neck
+          pain. We offer this therapy both in clinics and through{" "}
+          <strong>
+            home visit physiotherapists in Kalyanpur, Shastri Nagar, Govind
+            Nagar, Kanpur
+          </strong>{" "}
+          for those who prefer treatment at home.
         </p>
 
         <h3 className="text-lg font-semibold">How it Works</h3>
         <p>
           After assessing movement restrictions, the therapist applies hands-on
-          techniques, prescribes targeted exercises and advises on optimal desk
-          or sleeping ergonomics.
+          techniques, prescribes targeted exercises, and advises on optimal desk
+          or sleeping ergonomics.{" "}
+          <strong>
+            Home visit physiotherapist services are also available in Naubasta,
+            Kidwai Nagar, Barra, Saket Nagar, Kashev Nagar, Yashoda Nagar, and
+            Gopal Nagar
+          </strong>{" "}
+          to ensure convenient care without compromising quality.
         </p>
 
         <h3 className="text-lg font-semibold">Benefits</h3>
@@ -409,7 +510,10 @@ export const symptomsData: ITherapyData[] = [
         </ul>
 
         <p className="mt-4">
-          Effective for wry neck, spondylosis, whiplash and “tech-neck” strain.
+          Effective for wry neck, spondylosis, whiplash, and “tech-neck” strain.
+          Whether at a clinic or through{" "}
+          <strong>home physiotherapy in key areas of Kanpur</strong>, this
+          therapy promotes long-term relief and posture correction.
         </p>
       </div>
     ),
@@ -419,8 +523,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-shoulder-pain",
     name: "Shoulder Pain",
-    image:
-      "https://img.free-photo/shirtless-male-shoulder-pain_23-2149234578.jpg",
+    image: "/symptoms/shoulder 2.jpg",
     description:
       "Comprehensive care using exercise, manual therapy and taping for common shoulder conditions.",
     data: () => (
@@ -455,7 +558,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-joint-pain",
     name: "Joint Pain",
-    image: "https://img.free-photo/close-up-knee-joint-pain_23-2149234570.jpg",
+    image: "/symptoms/Joint-Pain.jpg",
     description:
       "Targeted rehabilitation for painful or arthritic joints using exercise and manual techniques.",
     data: () => (
@@ -486,7 +589,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-back-pain",
     name: "Back Pain",
-    image: "https://img.free-photo/back-pain_23-2149234560.jpg",
+    image: "/symptoms/back pain 2.jpg",
     description:
       "Combines exercise, manual therapy and education to relieve acute and chronic back pain.",
     data: () => (
@@ -517,8 +620,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-loss-of-balance",
     name: "Loss Of Balance",
-    image:
-      "https://img.free-photo/elderly-person-balance-exercise_23-2149234550.jpg",
+    image: "/symptoms/loss of balance.jpg",
     description:
       "Specialized training to improve stability, coordination and prevent falls.",
     data: () => (
@@ -548,7 +650,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-sprains-strains",
     name: "Sprains And Strains",
-    image: "https://img.free-photo/sprain_23-2149234540.jpg",
+    image: "/symptoms/sprain and strain.png",
     description:
       "Rehabilitation for ligament sprains and muscle/tendon strains to restore full function.",
     data: () => (
@@ -578,7 +680,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-foot-pain",
     name: "Foot Pain",
-    image: "https://img.free-photo/person-massaging-foot_23-2149234582.jpg",
+    image: "/symptoms/foot-pain.jpg",
     description:
       "Assessment and treatment for plantar fasciitis, heel pain and forefoot conditions.",
     data: () => (
@@ -607,7 +709,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-numbness-tingling",
     name: "Numbness And Tingling",
-    image: "https://img.free-photo/hand-numbness-tingling_23-2149234590.jpg",
+    image: "/symptoms/numbness and tingling.jpg",
     description:
       "Neuromuscular therapy to address sensory changes from nerve entrapment or circulation issues.",
     data: () => (
@@ -638,7 +740,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-tremors",
     name: "Tremors",
-    image: "https://img.free-photo/hand-tremor_23-2149234601.jpg",
+    image: "/symptoms/tremors.png",
     description:
       "Exercise and coordination training to manage involuntary shaking associated with neurological conditions.",
     data: () => (
@@ -697,7 +799,7 @@ export const symptomsData: ITherapyData[] = [
   {
     id: "cb-crepitus",
     name: "Crepitus - Cracking Joints",
-    image: "https://img.free-photo/knee-crepitus-clicking_23-2149234620.jpg",
+    image: "/symptoms/crepitus.jpg",
     description:
       "Assessment and care for joints that crack or grind, improving alignment and lubrication.",
     data: () => (

@@ -29,11 +29,17 @@ const Hero = () => {
     <section className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
       <div className="absolute inset-0 bg-transparent text-white px-3 z-20 grid place-content-center gap-6 mx-auto max-w-4xl text-center">
-        <h1 className="">Reclaim Your Strength with Manya Physiotherapy</h1>
-        <h2 className="text-gray-200">
-          Revolutionizing physiotherapy through intelligent diagnostics and
-          tailored treatment plans — providing effective pain relief and
-          mobility care across Clinics, Homes, and Video Consultation.
+        <h1 className="text-3xl sm:text-4xl font-bold">
+          Expert Physiotherapist in Kanpur – Reclaim Your Strength with Manya
+          Physiotherapy
+        </h1>
+        <h2 className="text-gray-200 text-base sm:text-lg">
+          Trusted <strong>Neurophysiotherapist in Kanpur</strong>, offering
+          personalized care for pain relief, injury recovery, and mobility
+          restoration. Experience effective{" "}
+          <strong>home physiotherapy in Kanpur</strong>, advanced neuro care,
+          and expert services from the leading <strong>physio in Kanpur</strong>
+          .
         </h2>
         <div className="flex-center flex-wrap gap-12 mt-12">
           <button
@@ -70,9 +76,6 @@ const Hero = () => {
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
         alt="Hero Background"
       />
-      <div className="sr-only">
-        Physiotherapist in Kanpur, Neurophysiotherapist in Kanpur, Home physiotherapy in Kanpur, Physio in Kanpur, Neurophysio in Kanpur
-      </div>
     </section>
   );
 };
