@@ -64,7 +64,7 @@ const SymptomsWeTreatSection = () => {
                 {therapy.description}
               </p>
               <Link
-                to={`/therapies-offered/${therapy.id}`}
+                to={`/symptoms-we-treat/${therapy.id}`} 
                 className="text-blue-600 hover:underline font-semibold mt-3 inline-flex items-center"
               >
                 Read More →
