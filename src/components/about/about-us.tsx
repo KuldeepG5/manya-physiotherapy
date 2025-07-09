@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { aboutUsContent, founder, officeImage1 } from "./about-data";
 import Banner from "../common/banner";
-
+import { certificateImages } from "./about-data";
 const AboutUs: React.FC = () => {
   return (
     <div className="w-full">
@@ -152,13 +152,9 @@ const AboutUs: React.FC = () => {
             </p>
           </motion.div>
         </motion.div>
+        <h2 className="text-3xl font-bold text-center text-gray-800 mt-10">Certificates</h2>
         <div className="mt-10 lg:mt-20 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {[
-            "/certificate-1.jpg",
-            "/certificate-2.jpg",
-            "/certificate-1.jpg",
-            "/certificate-2.jpg",
-          ].map((src) => (
+          {certificateImages.map((src) => (
             <img
               key={src + Math.random()}
               src={src}

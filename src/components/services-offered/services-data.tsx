@@ -14,7 +14,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-sports-physio",
     name: "Sports Physiotherapy",
     image:
-      "https://img.freepik.com/free-photo/therapist-taping-athlete-knee_23-2147954676.jpg",
+      "/service/sports physiotherapy.jpg",
     description:
       "Injury prevention, treatment and performance enhancement for athletes of all levels.",
     data: () => (
@@ -56,7 +56,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-peds-physio",
     name: "Pediatric Physiotherapy",
     image:
-      "https://img.freepik.com/free-photo/physiotherapist-helping-child-walk_23-2148912444.jpg",
+      "/service/pediatric physiotherapy.png",
     description:
       "Fun, age-appropriate therapy helping children reach motor-development milestones.",
     data: () => (
@@ -92,7 +92,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-home-physio",
     name: "Home Care Physiotherapy",
     image:
-      "https://img.freepik.com/free-photo/physio-home-visit_23-2149212483.jpg",
+      "/service/home care physiotherapy.png",
     description:
       "Professional physiotherapy delivered in the comfort of a patient’s home.",
     data: () => (
@@ -128,7 +128,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-neuro-rehab",
     name: "Neuro Physiotherapy / Rehabilitation",
     image:
-      "https://img.freepik.com/free-photo/physical-therapy-post-stroke_23-2149212471.jpg",
+      "/service/neurological physio.png",
     description:
       "Restores movement and function after stroke, spinal cord or other neurological conditions.",
     data: () => (
@@ -164,7 +164,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-surgical-rehab",
     name: "Pre and Post Surgical Physiotherapy / Rehabilitation",
     image:
-      "https://img.freepik.com/free-photo/physio-knee-replacement-rehab_23-2149212460.jpg",
+      "/service/post surgical rehab.jpg",
     description:
       "Optimises outcomes before and after orthopaedic, cardiac or abdominal surgery.",
     data: () => (
@@ -199,7 +199,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-geriatric-physio",
     name: "Geriatric Physiotherapy / Rehabilitation",
     image:
-      "https://img.freepik.com/free-photo/physiotherapy-elderly-balance_23-2149212450.jpg",
+      "/service/Geriatric-rehabilitation.png",
     description:
       "Maintains mobility, strength and independence for older adults.",
     data: () => (
@@ -235,7 +235,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-strength",
     name: "Strength Training",
     image:
-      "https://img.freepik.com/free-photo/personal-trainer-rehab_23-2149212440.jpg",
+      "/service/strength training.jpg",
     description:
       "Progressive resistance programs designed by physiotherapists for safe strength gains.",
     data: () => (
@@ -273,7 +273,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-advance-physio",
     name: "Advance Physiotherapy",
     image:
-      "https://img.freepik.com/free-photo/laser-therapy-advance-physio_23-2149212431.jpg",
+      "/service/advance physiotherapy.jpg",
     description:
       "Cutting-edge modalities such as laser, shockwave and dry needling for rapid recovery.",
     data: () => (
@@ -309,7 +309,7 @@ export const servicesData: IServiceData[] = [
     id: "svc-womens-health",
     name: "Women's Health Physiotherapy",
     image:
-      "https://img.freepik.com/free-photo/pelvic-floor-exercises_23-2149212422.jpg",
+      "/service/women health physio.jpeg",
     description:
       "Specialised care for pelvic floor, prenatal and postnatal conditions.",
     data: () => (

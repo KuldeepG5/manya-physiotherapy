@@ -45,3 +45,45 @@ export const aboutUsContent = {
 export const founder = "/founder.jpg";
 export const poster = "/hero-bg-2.jpg";
 export const officeImage1 = "/manya-physiotherapy.jpeg";
+// constants/certificates.ts
+
+export const certificate1 = "/certificate-1.jpg";
+export const certificate2 = "/certificate-2.jpg";
+export const fimtMembership = "/certificate/fimt membership.bmp";
+export const fnmtCertificate = "/certificate/fnmt certificate.jpg";
+export const gymnasticCompetition = "/certificate/gymnastic comptition certificate (1).bmp";
+export const iapMembership = "/certificate/iap membership.jpg";
+export const jainHospital = "/certificate/jain hospital certificate.bmp";
+export const jandaCertificate = "/certificate/janda certificate.bmp";
+export const jehangirInternship = "/certificate/jehangir intership certificate.bmp";
+export const kcat = "/certificate/kcat.jpg";
+export const manipalTraining = "/certificate/manipal trainig crtificate.bmp";
+export const manualTherapyAttendance = "/certificate/manual therapy attendance certificate.bmp";
+export const ndtWorkshop = "/certificate/ndt workshop.bmp";
+export const neurodynamicConference = "/certificate/neurodynamic conferance certificate.bmp";
+export const sagerApolloTraining = "/certificate/sager appolo trainig certificate.bmp";
+export const samman24 = "/certificate/samman 24.jpg";
+export const taping = "/certificate/taping.jpg";
+export const vedehiTraining = "/certificate/vedehi trainig certificate.bmp";
+
+// Export as array if needed
+export const certificateImages = [
+  certificate1,
+  certificate2,
+  fimtMembership,
+  fnmtCertificate,
+  gymnasticCompetition,
+  iapMembership,
+  jainHospital,
+  jandaCertificate,
+  jehangirInternship,
+  kcat,
+  manipalTraining,
+  manualTherapyAttendance,
+  ndtWorkshop,
+  neurodynamicConference,
+  sagerApolloTraining,
+  samman24,
+  taping,
+  vedehiTraining,
+];
