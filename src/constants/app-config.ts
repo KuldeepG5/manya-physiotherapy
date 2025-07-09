@@ -39,7 +39,7 @@ export const navConfig: INavConfig[] = [
   {
     id: 3,
     label: "Our Offerings",
-    link: "/therapies-offered",
+    link: " ",
     children: [
       {
         id: 31,
@@ -61,7 +61,7 @@ export const navConfig: INavConfig[] = [
   {
     id: 4,
     label: "Patient Education",
-    link: "/symptoms-we-treat",
+    link: " ",
     children: [
       {
         id: 41,
