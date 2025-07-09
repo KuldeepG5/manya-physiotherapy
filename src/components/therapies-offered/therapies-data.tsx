@@ -13,7 +13,7 @@ export const therapiesData: ITherapyData[] = [
     id: "8eb96cfb-72dd-4c5f-b0ed-953bdce90623",
     name: "Interferential Therapy (IFT)",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/therapy/interferential therapy.jpg",
     description:
       "Uses low-frequency electrical signals to reduce pain and inflammation.",
     data: () => {
@@ -26,7 +26,11 @@ export const therapiesData: ITherapyData[] = [
             Interferential Therapy is a type of electrotherapy that delivers
             low-frequency electrical stimulation to tissues using two
             medium-frequency currents. It is primarily used for pain relief,
-            muscle stimulation, and reducing inflammation.
+            muscle stimulation, and reducing inflammation. This therapy is
+            increasingly available through{" "}
+            <strong>physiotherapy services in Kanpur city</strong>, including{" "}
+            <strong>home visit physiotherapists in Kanpur</strong> for patients
+            who prefer treatment in the comfort of their home.
           </p>
 
           <h3 className="text-lg font-semibold">How it Works</h3>
@@ -35,6 +39,9 @@ export const therapiesData: ITherapyData[] = [
             where they intersect, they produce a low-frequency stimulation deep
             within the tissues. This interferential current penetrates deeper
             and causes less discomfort compared to traditional TENS therapy.
+            Many <strong>top physiotherapy centres in Kanpur</strong> use IFT as
+            part of comprehensive recovery plans for both acute and chronic
+            conditions.
           </p>
 
           <h3 className="text-lg font-semibold">Benefits</h3>
@@ -55,7 +62,24 @@ export const therapiesData: ITherapyData[] = [
 
           <p className="mt-4">
             Interferential Therapy is a safe and non-invasive procedure widely
-            used by physiotherapists to support recovery and pain management.
+            used by physiotherapists to support recovery and pain management. It
+            is now offered in{" "}
+            <strong>physiotherapy clinics across Kanpur</strong>, covering{" "}
+            <strong>all areas of Kanpur</strong> including Kakadeo, Swaroop
+            Nagar, Civil Lines, Nawabganj, Azad Nagar, Vishnupuri, Ashok Nagar,
+            and Harsh Nagar.
+          </p>
+
+          <p>
+            Whether you're looking for the{" "}
+            <strong>
+              best physiotherapists in Kanpur across all locations
+            </strong>{" "}
+            or a convenient <strong>physiotherapist in Kakadeo</strong> or{" "}
+            <strong>Swaroop Nagar</strong>, options are available throughout the
+            city to suit your needs. These centers and professionals ensure easy
+            access to modern rehabilitation therapies like IFT for pain and
+            functional recovery.
           </p>
         </div>
       );
@@ -64,7 +88,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "501e7183-f72a-4ae2-8075-1e940d5b526f",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/therapy/ultrasound therapy.jpg",
     name: "Ultrasound Therapy",
     data: () => {
       return (
@@ -118,7 +142,7 @@ export const therapiesData: ITherapyData[] = [
     id: "589012ea-82b9-43ff-a7ce-25b0be6ffb1b",
     name: "Laser Therapy",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/therapy/laser therapy.jpg",
     description:
       "Uses light energy to accelerate tissue repair and reduce pain.",
     data: () => {
@@ -129,7 +153,13 @@ export const therapiesData: ITherapyData[] = [
             Laser Therapy is a non-invasive treatment that uses focused light
             energy to stimulate healing in tissues. It is widely used in
             physiotherapy to relieve pain, reduce inflammation, and enhance
-            tissue regeneration.
+            tissue regeneration. We offer both in-clinic services and{" "}
+            <strong>
+              home visit physiotherapists in Shyam Nagar, Koyla Nagar, Sanigawa,
+              Jarauli, Karrahi, Khadepur, Arra, Hanspuram, Galla Mandi, and
+              Basant Vihar
+            </strong>{" "}
+            for patient convenience.
           </p>
 
           <h3 className="text-lg font-semibold">How it Works</h3>
@@ -137,7 +167,13 @@ export const therapiesData: ITherapyData[] = [
             During the procedure, a therapeutic laser emits light at specific
             wavelengths, which penetrates the skin and is absorbed by the
             targeted cells. This energy boosts cellular repair processes and
-            promotes circulation in the affected area.
+            promotes circulation in the affected area.{" "}
+            <strong>
+              Home physiotherapy for laser therapy is also available in Damodar
+              Nagar, Vishwa Bank, Dabauli, Nirala Nagar, Govind Nagar, Ratanlal
+              Nagar, Gujaini, and Tatyatope Nagar
+            </strong>
+            .
           </p>
 
           <h3 className="text-lg font-semibold">Benefits</h3>
@@ -160,7 +196,9 @@ export const therapiesData: ITherapyData[] = [
           <p className="mt-4">
             Laser Therapy is a painless and effective technique often used in
             physical rehabilitation to speed up recovery and manage pain without
-            medication or surgery.
+            medication or surgery. Our{" "}
+            <strong>home visit physiotherapy services in Kanpur</strong> make
+            this treatment easily accessible across multiple localities.
           </p>
         </div>
       );
@@ -170,7 +208,7 @@ export const therapiesData: ITherapyData[] = [
     id: "b7e392ac-3d87-4f5e-9b3e-d2ea289b839f",
     name: "Traction Therapy",
     image:
-      "https://img.freepik.com/free-photo/sportsman-suffering-from-backpain-while-training-gym_637285-5866.jpg?w=740&t=st=1716823130~exp=1716823730~hmac=6f5f3e15d15bb58dc0c2655c3e18d543b0932d07b9d8dc2f76e1c5f643bce2e1",
+      "/therapy/traction therapy.jpg",
     description:
       "Gently stretches the spine to relieve pressure and reduce pain.",
     data: () => {
@@ -233,7 +271,14 @@ export const therapiesData: ITherapyData[] = [
             Wax Therapy, also known as paraffin wax treatment, involves the
             application of warm melted wax to specific areas of the body. It is
             commonly used in physiotherapy to relieve pain, improve blood flow,
-            and relax muscles and joints.
+            and relax muscles and joints. Our services are available in-clinic
+            and through{" "}
+            <strong>
+              home visit physiotherapists in Panki, Vijay Nagar, Kakadeo, Geeta
+              Nagar, Gumti, Lajpat Nagar, Juhi, Acharya Nagar, Rai Purwa, Kanpur
+              Cant, and Mall Road
+            </strong>
+            .
           </p>
 
           <h3 className="text-lg font-semibold">How it Works</h3>
@@ -241,7 +286,12 @@ export const therapiesData: ITherapyData[] = [
             The affected area—usually hands, feet, or joints—is dipped into or
             coated with warm paraffin wax. The wax retains heat and helps to
             increase circulation, soften tissues, and ease stiffness by deeply
-            penetrating warmth into the tissues.
+            penetrating warmth into the tissues. We also offer{" "}
+            <strong>
+              home physiotherapy for Wax Therapy in Nayaganj, General Ganj,
+              Khalasi Line, and Tilak Nagar
+            </strong>{" "}
+            for your convenience.
           </p>
 
           <h3 className="text-lg font-semibold">Benefits</h3>
@@ -263,7 +313,10 @@ export const therapiesData: ITherapyData[] = [
           <p className="mt-4">
             Wax Therapy is a simple, safe, and soothing treatment that is often
             used as a preliminary step before exercises or other physical
-            therapy techniques.
+            therapy techniques. If you're looking for expert care at your
+            doorstep, our{" "}
+            <strong>home visit physiotherapists in key areas of Kanpur</strong>{" "}
+            are here to assist.
           </p>
         </div>
       );
@@ -273,7 +326,7 @@ export const therapiesData: ITherapyData[] = [
     id: "e8e1f310-1f90-4d35-bf9b-0dc6d3a6de70",
     name: "Kinesio Taping Therapy",
     image:
-      "https://img.freepik.com/free-photo/female-physiotherapist-applying-kinesiology-tape-female-patient-s-shoulder_116547-41333.jpg?w=740&t=st=1716828200~exp=1716828800~hmac=56b3a5b173d0e4f5b0388c594d90cba6a8b59754611c5601b130395f78e0e09d",
+      "/therapy/kinisio taping.jpg",
     description:
       "Uses elastic therapeutic tape to support muscles and reduce pain without restricting movement.",
     data: () => {
@@ -325,7 +378,7 @@ export const therapiesData: ITherapyData[] = [
     id: "2a84d38a-9078-4a42-95d1-3fa29a1ef279",
     name: "Dry Needling Therapy",
     image:
-      "https://img.freepik.com/free-photo/physiotherapist-inserting-needle-into-patient-back_107420-94347.jpg?t=st=1716813288~exp=1716816888~hmac=2d92edb1d05aebc38d20a5e540fdf9ef80d4a7ed9b7b7095ce32596f09e3b8e7&w=740",
+      "/therapy/dry-needling.jpg",
     description:
       "Involves inserting fine needles to release muscle tension and trigger points.",
     data: () => {
@@ -377,7 +430,7 @@ export const therapiesData: ITherapyData[] = [
     id: "346bbab9-5914-452f-89a7-a1d4b0a69102",
     name: "Thermotherapy (Heat Therapy)",
     image:
-      "https://img.freepik.com/free-photo/woman-having-hot-stone-therapy-spa-salon_23-2148683796.jpg?t=st=1716796467~exp=1716800067~hmac=50f74b35244cf7e22ec9976320b860f16f9e5f1f0db1900b5c4b0531f1c2f81f&w=740",
+      "/therapy/heat therapy.jpg",
     description:
       "Uses heat to improve blood flow, reduce stiffness, and ease muscle spasms.",
     data: () => {
@@ -431,7 +484,7 @@ export const therapiesData: ITherapyData[] = [
     id: "a1c2d3e4-0001-0001-0001-000000000001",
     name: "TENS Therapy",
     image:
-      "https://img.freepik.com/free-photo/close-up-electro-stimulation-device_1048-2392.jpg",
+      "/therapy/tens therapy.jpeg",
     description: "Uses electrical pulses to reduce pain by stimulating nerves.",
     data: () => (
       <div className="space-y-4">
@@ -475,7 +528,7 @@ export const therapiesData: ITherapyData[] = [
     id: "a1c2d3e4-0001-0001-0001-000000000002",
     name: "Lymphatic Drainage Massage",
     image:
-      "https://img.freepik.com/free-photo/manual-lymphatic-drainage-therapy-closeup_23-2149325244.jpg",
+      "/therapy/lymphatic-drainage.jpg",
     description:
       "Gentle massage that stimulates lymph flow to reduce swelling and detoxify.",
     data: () => (
@@ -522,7 +575,7 @@ export const therapiesData: ITherapyData[] = [
     id: "a1c2d3e4-0001-0001-0001-000000000003",
     name: "Overhead Harness Gait Training",
     image:
-      "https://img.freepik.com/free-photo/rehabilitation-patient-walking-treadmill-physiotherapist-supervising_23-2149939821.jpg",
+      "/therapy/over head harness.jpg",
     description:
       "Assisted walking practice with harness support to improve gait and balance.",
     data: () => (
@@ -569,7 +622,7 @@ export const therapiesData: ITherapyData[] = [
     id: "a1c2d3e4-0001-0001-0001-000000000004",
     name: "Manual Therapy",
     image:
-      "https://img.freepik.com/free-photo/physiotherapist-working-patient-back_23-2146987435.jpg",
+      "/therapy/manual therapy.jpeg",
     description: "Hands-on techniques to mobilize joints and soft tissues.",
     data: () => (
       <div className="space-y-4">
@@ -606,7 +659,7 @@ export const therapiesData: ITherapyData[] = [
     id: "a1c2d3e4-0001-0001-0001-000000000005",
     name: "Cupping Therapy",
     image:
-      "https://img.freepik.com/free-photo/back-cupping-therapy-outdoor_23-2149328479.jpg",
+      "/therapy/cupping-therapy.jpeg",
     description:
       "Uses suction cups to lift soft tissue, improve circulation, and relieve tension.",
     data: () => (
@@ -643,7 +696,7 @@ export const therapiesData: ITherapyData[] = [
     id: "a1c2d3e4-0001-0001-0001-000000000006",
     name: "Myofascial Release",
     image:
-      "https://img.freepik.com/free-photo/therapist-performing-myofascial-release_23-2149327950.jpg",
+      "/therapy/myofascial release.jpg",
     description:
       "Gentle sustained pressure on fascia to eliminate pain and restore movement.",
     data: () => (
@@ -681,7 +734,7 @@ export const therapiesData: ITherapyData[] = [
     id: "a1c2d3e4-0001-0001-0001-000000000007",
     name: "Soft Tissue Mobilization",
     image:
-      "https://img.freepik.com/free-photo/physiotherapist-massaging-leg_23-2149327948.jpg",
+      "/therapy/soft tissue mobilization.jpg",
     description:
       "Hands-on manipulation of muscles, tendons & ligaments to restore function.",
     data: () => (
@@ -764,7 +817,7 @@ export const therapiesData: ITherapyData[] = [
     id: "9f6e108b-2a97-4bd5-801e-bbb67e7a34f1",
     name: "Cryotherapy",
     image:
-      "https://img.freepik.com/free-photo/cold-compress-leg_1150-14793.jpg?w=740",
+      "/therapy/cryo therapy.jpg",
     description:
       "Uses cold temperatures to reduce pain, swelling, and inflammation.",
     data: () => (
@@ -809,7 +862,7 @@ export const therapiesData: ITherapyData[] = [
     id: "11cb419b-8934-4642-97c1-dce9ab208fc2",
     name: "Chest Physiotherapy",
     image:
-      "https://img.freepik.com/free-photo/nurse-helping-asthmatic-senior-woman-use-inhaler_23-2149113345.jpg?w=740",
+      "/therapy/chest  physiotherapy.jpg",
     description:
       "Clears lung secretions and improves breathing through manual techniques.",
     data: () => (
@@ -855,7 +908,7 @@ export const therapiesData: ITherapyData[] = [
     id: "ee304299-e6ae-4703-b9ff-f5c4f6d6a5d3",
     name: "Craniosacral Therapy",
     image:
-      "https://img.freepik.com/free-photo/close-up-masseur-doing-head-massage_23-2149525227.jpg?w=740",
+      "/therapy/cranioscaral therapy 1.jpg",
     description:
       "Gentle hands-on technique to relieve tension in the central nervous system.",
     data: () => (

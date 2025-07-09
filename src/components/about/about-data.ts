@@ -27,7 +27,8 @@ export const aboutUsContent = {
   aboutFounder2:
     ", is a licensed physiotherapist with a deep commitment to patient wellness and recovery. With a background in",
   aboutFounder3: "Bachelor of Physiotherapy (BPT)",
-  aboutFounder4: "and years of hands-on experience, she has treated a wide range of musculoskeletal and neurological conditions.",
+  aboutFounder4:
+    "and years of hands-on experience, she has treated a wide range of musculoskeletal and neurological conditions.",
   aboutFounder5: "Dr. Manya",
   aboutFounder6:
     "'s goal is to provide high-quality, affordable physiotherapy services that help individuals regain mobility, relieve pain, and return to their daily activities with confidence.",
@@ -38,9 +39,8 @@ export const aboutUsContent = {
   visitUs: "Visit Us",
   visitUs1: "97, Rajeev Bihar",
   visitUs2: "",
-  visitUs3: "Naubasta, Kanpur, U.P"
+  visitUs3: "Naubasta, Kanpur, U.P",
 };
-
 
 export const founder = "/founder.jpg";
 export const poster = "/hero-bg-2.jpg";
@@ -51,17 +51,22 @@ export const certificate1 = "/certificate-1.jpg";
 export const certificate2 = "/certificate-2.jpg";
 export const fimtMembership = "/certificate/fimt membership.bmp";
 export const fnmtCertificate = "/certificate/fnmt certificate.jpg";
-export const gymnasticCompetition = "/certificate/gymnastic comptition certificate (1).bmp";
+export const gymnasticCompetition =
+  "/certificate/gymnastic comptition certificate (1).bmp";
 export const iapMembership = "/certificate/iap membership.jpg";
 export const jainHospital = "/certificate/jain hospital certificate.bmp";
 export const jandaCertificate = "/certificate/janda certificate.bmp";
-export const jehangirInternship = "/certificate/jehangir intership certificate.bmp";
+export const jehangirInternship =
+  "/certificate/jehangir intership certificate.bmp";
 export const kcat = "/certificate/kcat.jpg";
 export const manipalTraining = "/certificate/manipal trainig crtificate.bmp";
-export const manualTherapyAttendance = "/certificate/manual therapy attendance certificate.bmp";
+export const manualTherapyAttendance =
+  "/certificate/manual therapy attendance certificate.bmp";
 export const ndtWorkshop = "/certificate/ndt workshop.bmp";
-export const neurodynamicConference = "/certificate/neurodynamic conferance certificate.bmp";
-export const sagerApolloTraining = "/certificate/sager appolo trainig certificate.bmp";
+export const neurodynamicConference =
+  "/certificate/neurodynamic conferance certificate.bmp";
+export const sagerApolloTraining =
+  "/certificate/sager appolo trainig certificate.bmp";
 export const samman24 = "/certificate/samman 24.jpg";
 export const taping = "/certificate/taping.jpg";
 export const vedehiTraining = "/certificate/vedehi trainig certificate.bmp";
@@ -69,21 +74,15 @@ export const vedehiTraining = "/certificate/vedehi trainig certificate.bmp";
 // Export as array if needed
 export const certificateImages = [
   certificate1,
-  certificate2,
-  fimtMembership,
   fnmtCertificate,
-  gymnasticCompetition,
   iapMembership,
   jainHospital,
-  jandaCertificate,
   jehangirInternship,
   kcat,
   manipalTraining,
   manualTherapyAttendance,
-  ndtWorkshop,
   neurodynamicConference,
   sagerApolloTraining,
-  samman24,
   taping,
   vedehiTraining,
 ];

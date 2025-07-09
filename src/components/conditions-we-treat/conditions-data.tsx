@@ -16,41 +16,60 @@ export const conditionsData: ITherapyData[] = [
     "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
   description:
     "Uses low-frequency electrical signals to reduce pain and inflammation.",
-  data: () => {
-    return (
-      <div className="space-y-4">
-        <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
-        <p>
-          Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation.
-        </p>
+ data: () => {
+  return (
+    <div className="space-y-4">
+      <h2 className="text-xl font-bold">What is Interferential Therapy (IFT)?</h2>
+      <p>
+        Interferential Therapy is a type of electrotherapy that delivers low-frequency electrical stimulation to tissues using two medium-frequency currents. It is primarily used for pain relief, muscle stimulation, and reducing inflammation. Many clinics offering{" "}
+        <strong>home physiotherapy services in Kanpur</strong> now provide IFT as part of their treatment programs for enhanced comfort and convenience.
+      </p>
 
-        <h3 className="text-lg font-semibold">How it Works</h3>
-        <p>
-          Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy.
-        </p>
+      <h3 className="text-lg font-semibold">How it Works</h3>
+      <p>
+        Two medium-frequency currents are applied to the affected area, and where they intersect, they produce a low-frequency stimulation deep within the tissues. This interferential current penetrates deeper and causes less discomfort compared to traditional TENS therapy. Clinics like the{" "}
+        <strong>best neuro physiotherapy clinic in Kanpur</strong> often use IFT to treat complex neurological conditions safely and effectively.
+      </p>
 
-        <h3 className="text-lg font-semibold">Benefits</h3>
-        <ul className="list-disc list-inside">
-          <li>Reduces swelling and inflammation</li>
-          <li>Provides pain relief without medication</li>
-          <li>Improves blood circulation</li>
-          <li>Stimulates muscle activity</li>
-        </ul>
+      <h3 className="text-lg font-semibold">Benefits</h3>
+      <ul className="list-disc list-inside">
+        <li>Reduces swelling and inflammation</li>
+        <li>Provides pain relief without medication</li>
+        <li>Improves blood circulation</li>
+        <li>Stimulates muscle activity</li>
+      </ul>
 
-        <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
-        <ul className="list-disc list-inside">
-          <li>Arthritis</li>
-          <li>Sports injuries</li>
-          <li>Back and neck pain</li>
-          <li>Post-surgical pain and swelling</li>
-        </ul>
+      <h3 className="text-lg font-semibold">Common Conditions Treated</h3>
+      <ul className="list-disc list-inside">
+        <li>Arthritis</li>
+        <li>Sports injuries</li>
+        <li>Back and neck pain</li>
+        <li>Post-surgical pain and swelling</li>
+      </ul>
 
-        <p className="mt-4">
-          Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management.
-        </p>
-      </div>
-    );
-  },
+      <p>
+        Interferential Therapy is a safe and non-invasive procedure widely used by physiotherapists to support recovery and pain management. Patients searching for an{" "}
+        <strong>affordable physiotherapy centre in Kanpur</strong> or a{" "}
+        <strong>physiotherapy centre with good reviews in Kanpur</strong> can benefit from facilities that offer IFT along with personalized rehabilitation programs.
+      </p>
+
+      <p>
+        For individuals recovering from neurological conditions, combining IFT with{" "}
+        <strong>neuro rehab physiotherapy in Kanpur</strong> under the care of{" "}
+        <strong>neurological physiotherapy specialists in Kanpur</strong> provides an effective path to functional recovery. If you're ready to begin, you can easily{" "}
+        <strong>book a physiotherapy appointment in Kanpur</strong> and consult with a{" "}
+        <strong>top neuro physiotherapist near you in Kanpur</strong> to explore tailored treatment options.
+      </p>
+
+      <p>
+        Whether at a clinic or through{" "}
+        <strong>home physiotherapy services</strong>, Interferential Therapy is widely trusted in nearly every leading{" "}
+        <strong>physiotherapy centre in Kanpur</strong> to accelerate recovery and restore quality of life.
+      </p>
+    </div>
+  );
+},
+
 }
 ,
   {

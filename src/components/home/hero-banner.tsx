@@ -12,27 +12,27 @@ const HeroBanner = () => {
   const heroData: IHeroData[] = [
     {
       id: 1,
-      title: "Advanced Clinics",
+      title: "Advanced Physiotherapy Clinics in Kanpur",
       icon: () => <Hospital className="icon text-main" />,
-      text: "Modern Infrastructure, Latest Technology & Top Physiotherapy Experts",
+      text: "Best physiotherapy clinic in Kanpur offering orthopedic, neurological, and sports injury treatments by certified physiotherapists.",
     },
     {
       id: 2,
-      title: "Professional Home Care",
+      title: "Home Physio Services in Kanpur",
       icon: () => <Home className="icon text-main" />,
-      text: "Physiotherapy at home with expert oversight & Strong quality checks",
+      text: "Trusted home physiotherapy in Kanpur for stroke rehab, back pain, and elderly care — with qualified physiotherapists at your doorstep.",
     },
     {
       id: 3,
-      title: "Tele / Remote Rehab",
+      title: "Tele & Remote Rehabilitation",
       icon: () => <Laptop2 className="icon text-main" />,
-      text: "Personalized Physio exercises at home with Continuous guidance & mentoring",
+      text: "Online physiotherapy sessions with expert guidance — perfect for neuro rehab, pediatric physiotherapy, and spinal cord injuries.",
     },
     {
       id: 4,
-      title: "Stay and Physiotherapy",
+      title: "Stay & Neuro Rehab Therapy",
       icon: () => <Laptop2 className="icon text-main" />,
-      text: "Personalized Physio exercises at home with Continuous guidance & mentoring",
+      text: "Get advanced neuro physiotherapy in Kanpur including therapy for Parkinson’s, hemiplegia, brain injury, and spinal rehabilitation.",
     },
   ];
 
