@@ -3,15 +3,16 @@ import { useEffect, useState } from "react";
 import { symptomsData, type ITherapyData } from "./symptoms-data";
 
 const SymptomsDetailSection = () => {
-  const { therapyId } = useParams();
+  const { symptomId } = useParams();
   const [currentBlog, setCurrentBlog] = useState<ITherapyData | undefined>();
 
   useEffect(() => {
-    const selectedBlog = symptomsData.find((item) => item.id === therapyId);
+   const selectedBlog = symptomsData.find((item) => item.id === symptomId);
+
     if (selectedBlog) {
       setCurrentBlog(selectedBlog);
     }
-  }, [therapyId]);
+  }, [symptomId]);
 
   console.log(currentBlog);
 

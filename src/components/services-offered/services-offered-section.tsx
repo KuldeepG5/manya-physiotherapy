@@ -64,7 +64,7 @@ const ServicessOfferedSection = () => {
                 {service.description}
               </p>
               <Link
-                to={`/therapies-offered/${service.id}`}
+                to={`/service-offered/${service.id}`}
                 className="text-blue-600 hover:underline font-semibold mt-3 inline-flex items-center"
               >
                 Read More →

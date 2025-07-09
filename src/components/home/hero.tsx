@@ -70,6 +70,9 @@ const Hero = () => {
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
         alt="Hero Background"
       />
+      <div className="sr-only">
+        Physiotherapist in Kanpur, Neurophysiotherapist in Kanpur, Home physiotherapy in Kanpur, Physio in Kanpur, Neurophysio in Kanpur
+      </div>
     </section>
   );
 };

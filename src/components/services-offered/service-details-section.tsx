@@ -7,9 +7,9 @@ const ServiceDetailSection = () => {
   const [currentService, setCurrentService] = useState<IServiceData | undefined>();
 
   useEffect(() => {
-    const selectedService = servicesData.find((item) => item.id === serviceId);
-    if (selectedService) {
-      setCurrentService(selectedService);
+    const selected = servicesData.find((item) => item.id === serviceId);
+    if (selected) {
+      setCurrentService(selected);
     }
   }, [serviceId]);
 
