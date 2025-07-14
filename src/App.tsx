@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import WhatsAppFloatingIcon from "./components/common/whatsapp";
 import {
   Home,
   NotFound,
@@ -20,6 +21,7 @@ import {
   TermsAndConditions,
   BlogDetails,
   StayAndPhysiotherapy,
+
 } from "./pages";
 
 const App = () => {
@@ -59,6 +61,7 @@ const App = () => {
         <Route path="/symptoms-we-treat" element={<SymptomsWeTreat />} />
        <Route path="/symptoms-we-treat/:symptomId" element={<SymptomsDetails />} />
       </Routes>
+      <WhatsAppFloatingIcon/>
     </BrowserRouter>
   );
 };
