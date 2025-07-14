@@ -181,7 +181,8 @@ const MobileMenu = () => {
           </button>
         </header>
 
-        <ul className="grid gap-6 mt-8 pl-4 pr-6 overflow-y-auto h-[calc(100vh-140px)]">
+       <ul className="grid gap-3 mt-4 pl-4 pr-4 overflow-y-auto h-[calc(100vh-140px)]">
+
           {navConfig.map((item: INavConfig) => (
             <li key={item.id} className="group">
               <NavLink

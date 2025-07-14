@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { CustomButton } from "../common";
 import { useNavigate } from "react-router-dom";
-import { LucideMessageCircle } from "lucide-react";
-import { appConfig } from "@/constants/app-config";
+// import { LucideMessageCircle } from "lucide-react";
+// import { appConfig } from "@/constants/app-config";
 
 const Hero = () => {
   const images = ["/hero-bg-1.jpg", "/hero-bg-2.jpg", "/hero-bg-3.jpg"];
@@ -21,9 +21,9 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, [index]);
 
-  const handleWhatsappClick = () => {
-    window.open(appConfig.whatsappLink, "_blank", "noopener,noreferrer");
-  };
+  // const handleWhatsappClick = () => {
+  //   window.open(appConfig.whatsappLink, "_blank", "noopener,noreferrer");
+  // };
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
@@ -42,7 +42,7 @@ const Hero = () => {
           .
         </h2>
         <div className="flex-center flex-wrap gap-12 mt-12">
-          <button
+          {/* <button
             onClick={handleWhatsappClick}
             rel="noopener noreferrer"
             className="relative overflow-hidden group hover-shadow bg-white"
@@ -54,7 +54,7 @@ const Hero = () => {
             <span className="z-20 bg-green-500 group-hover:bg-white">
               <LucideMessageCircle className="icon group-hover:text-green-500" />
             </span>
-          </button>
+          </button> */}
 
           <CustomButton
             title="Request Callback"
