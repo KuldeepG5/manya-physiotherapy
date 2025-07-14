@@ -30,12 +30,6 @@ const ContactUs = () => {
                   >
                     {appConfig.contact}
                   </a>
-                  <a
-                    href={`tel:+${appConfig.mobile}`}
-                    className="text-base hover:underline"
-                  >
-                    {appConfig.contact}
-                  </a>
                 </span>
               </div>
 
@@ -73,13 +67,13 @@ const ContactUs = () => {
         {/* Google Map Embed */}
         <div className="relative w-full max-w-xl rounded-2xl overflow-hidden shadow-lg h-[400px] group">
           <div className="absolute inset-0 flex-center hidden group-hover:flex hover:bg-black/30 transition-all duration-500 fade-in">
-            <a 
-            href={appConfig.googleMapLocation}
-            target="_blank"
-            className="px-4 py-2 rounded-xl group shadow flex-center gap-2 hover:bg-main hover:text-white bg-white transition-all duration-500 fade-in"
+            <a
+              href={appConfig.googleMapLocation}
+              target="_blank"
+              className="px-4 py-2 rounded-xl group shadow flex-center gap-2 hover:bg-main hover:text-white bg-white transition-all duration-500 fade-in"
             >
-             Open in Google Maps
-             <MapPin className="icon text-black group-hover:text-white" />
+              Open in Google Maps
+              <MapPin className="icon text-black group-hover:text-white" />
             </a>
           </div>
           <iframe

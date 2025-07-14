@@ -8,7 +8,7 @@ export const appConfig = {
   googleMapLocation: "https://maps.app.goo.gl/Gi63iGmmtn33inw7A?g_st=aw",
   whatsapp: "+91- 6394777590",
   whatsappLink: "https://wa.me/message/HO7GII3HWBMLG1",
-  contact: "+91- 9598055535",
+  contact: "+91- 6394777590",
   mobile: "+91- 6394777590",
 };
 

@@ -1,16 +1,12 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { CustomButton } from "../common";
-import { useNavigate } from "react-router-dom";
-// import { LucideMessageCircle } from "lucide-react";
-// import { appConfig } from "@/constants/app-config";
-
 const Hero = () => {
   const images = ["/hero-bg-1.jpg", "/hero-bg-2.jpg", "/hero-bg-3.jpg"];
 
   const [index, setIndex] = useState(0);
   const [prevIndex, setPrevIndex] = useState(0);
-  const navigate = useNavigate();
+ 
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -21,9 +17,6 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, [index]);
 
-  // const handleWhatsappClick = () => {
-  //   window.open(appConfig.whatsappLink, "_blank", "noopener,noreferrer");
-  // };
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
@@ -42,24 +35,12 @@ const Hero = () => {
           .
         </h2>
         <div className="flex-center flex-wrap gap-12 mt-12">
-          {/* <button
-            onClick={handleWhatsappClick}
-            rel="noopener noreferrer"
-            className="relative overflow-hidden group hover-shadow bg-white"
-          >
-            <div className="absolute w-full h-full -translate-x-full z-10 bg-green-500 top-0 left-0 group-hover:translate-x-0 transition-all duration-500 rounded-full" />
-            <p className="z-20 group-hover:text-white">
-              Contact us on Whatsapp
-            </p>
-            <span className="z-20 bg-green-500 group-hover:bg-white">
-              <LucideMessageCircle className="icon group-hover:text-green-500" />
-            </span>
-          </button> */}
 
-          <CustomButton
-            title="Request Callback"
-            onClick={() => navigate("/contact")}
-          />
+          <div className="flex-center flex-wrap gap-12 mt-12">
+            <a href="tel:+916394777590">
+              <CustomButton title="Talk to Us" />
+            </a>
+          </div>
         </div>
       </div>
       <img
