@@ -19,10 +19,15 @@ const Hero = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
-      <div className="absolute inset-0 bg-transparent text-white px-3 z-20 grid place-content-center gap-6 mx-auto max-w-4xl text-center">
+      <div className="absolute inset-0 bg-transparent text-white px-3 z-20 grid place-content-center gap-4 mx-auto max-w-4xl text-center">
         <h1 className="text-3xl sm:text-4xl font-bold">
-          Restoring movement, Renewing life with Manya physiotherapy clinic
-          Physiotherapy
+          Restoring movement, Renewing life 
+        </h1>
+        <h1 className="text-3xl sm:text-4xl font-bold">
+          with
+        </h1>
+        <h1 className="text-3xl sm:text-4xl font-bold">
+          Manya physiotherapy clinic
         </h1>
         <h2 className="text-gray-200 text-base sm:text-lg">
           We offer personalized care for pain relief, injury recovery, and

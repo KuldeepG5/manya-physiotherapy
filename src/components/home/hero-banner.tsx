@@ -13,25 +13,25 @@ const HeroBanner = () => {
     {
       id: 1,
       title: "Advanced Physiotherapy Clinics in Kanpur",
-      icon: () => <Hospital className="icon text-main" />,
+      icon: () => <Hospital className="w-10 h-10 text-main" />,
       text: "Best physiotherapy clinic in Kanpur offering multispecialty physiotherapy treatments by qualified physiotherapist in Kanpur",
     },
     {
       id: 2,
       title: "Home Physio Services in Kanpur",
-      icon: () => <Home className="icon text-main" />,
+      icon: () => <Home className="w-10 h-10 text-main" />,
       text: "Trusted home physiotherapy in Kanpur for stroke rehab, paralysis, spine injury, back pain, joint pain and elderly care with qualified physiotherapists at home in Kanpur (all areas)",
     },
     {
       id: 3,
       title: "Tele & Remote Rehabilitation",
-      icon: () => <Laptop2 className="icon text-main" />,
+      icon: () => <Laptop2 className="w-10 h-10 text-main" />,
       text: "Online physiotherapy consultation and treatment sessions with expert guidance, perfect for neuro rehab, postural correction, muscle and joint conditions, paediatric physiotherapy, spinal cord injuries and strength training",
     },
     {
       id: 4,
       title: "Stay & Physiotherapy",
-      icon: () => <Laptop2 className="icon text-main" />,
+      icon: () => <Laptop2 className="w-10 h-10 text-main" />,
       text: "Get advanced neuro physiotherapy in Kanpur with room stay facility for Paralysis, Hemiplegic, Paraplegia, Quadriplegia, Brain injury, and Spinal injury rehabilitation.",
     },
   ];
@@ -47,12 +47,12 @@ const HeroBanner = () => {
 
 const SectionCard = ({ data }: { data: IHeroData }) => {
   return (
-    <div className="py-4 px-8 text-white">
-      <div className="flex-center mb-2 gap-3">
-        <div className="p-5 rounded-full bg-light">{data.icon()}</div>
-        <h2 className="font-semibold">{data.title}</h2>
+    <div className="py-6 px-6 text-white text-center flex flex-col items-center">
+      <div className="p-5 rounded-full bg-light flex items-center justify-center mb-4">
+        {data.icon()}
       </div>
-      <p className="text-wrap">{data.text}</p>
+      <h2 className="font-semibold text-lg mb-2">{data.title}</h2>
+      <p className="text-sm leading-relaxed">{data.text}</p>
     </div>
   );
 };
