@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 import {
   clinicImage2,
-  clinicImage3,
+  treatmentRoom,
   clinicImage5,
   office,
   maleRoom,
@@ -23,7 +23,7 @@ export const specialties = [
   },
   {
     title: " ",
-    image: clinicImage3,
+    image: treatmentRoom,
   },
   {
     title: " ",
