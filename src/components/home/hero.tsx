@@ -6,7 +6,6 @@ const Hero = () => {
 
   const [index, setIndex] = useState(0);
   const [prevIndex, setPrevIndex] = useState(0);
- 
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -17,25 +16,26 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, [index]);
 
-
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
       <div className="absolute inset-0 bg-transparent text-white px-3 z-20 grid place-content-center gap-6 mx-auto max-w-4xl text-center">
         <h1 className="text-3xl sm:text-4xl font-bold">
-          Expert Physiotherapist in Kanpur – Reclaim Your Strength with Manya
+          Restoring movement, Renewing life with Manya physiotherapy clinic
           Physiotherapy
         </h1>
         <h2 className="text-gray-200 text-base sm:text-lg">
-          Trusted <strong>Neurophysiotherapist in Kanpur</strong>, offering
-          personalized care for pain relief, injury recovery, and mobility
-          restoration. Experience effective{" "}
-          <strong>home physiotherapy in Kanpur</strong>, advanced neuro care,
-          and expert services from the leading <strong>physio in Kanpur</strong>
-          .
+          We offer personalized care for pain relief, injury recovery, and
+          mobility restoration. Experience effective and personalized
+          physiotherapy services, Advanced neurological physiotherapy, Spine
+          physiotherapy in Kanpur and expert consultation from the best
+          physiotherapist in Kanpur
+        </h2>
+        <h2 className="text-gray-200 text-base sm:text-lg">
+          Only Physiotherapy clinic in Kanpur with stay room facility with best
+          Neuro physiotherapist in Kanpur
         </h2>
         <div className="flex-center flex-wrap gap-12 mt-12">
-
           <div className="flex-center flex-wrap gap-12 mt-12">
             <a href="tel:+916394777590">
               <CustomButton title="Talk to Us" />

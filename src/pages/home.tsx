@@ -2,12 +2,12 @@ import { LatestBlogs } from "@/components/blogs";
 import { Footer, Header } from "@/components/common";
 import {
   Hero,
-  FaqSection,
   HeroBanner,
   OurClinic,
   RecoveryFlow,
   Specialities,
   WhatWeTreat,
+  FounderSection,
 } from "@/components/home";
 
 const Home = () => {
@@ -16,12 +16,12 @@ const Home = () => {
       <Header />
       <Hero />
       <HeroBanner />
+      <FounderSection />
       <RecoveryFlow />
       <Specialities />
       <OurClinic />
       <WhatWeTreat />
       <LatestBlogs />
-      <FaqSection />
       <Footer />
     </main>
   );

@@ -252,7 +252,7 @@ export const servicesData: IServiceData[] = [
   /* ───────────────────────────  GERIATRIC PHYSIOTHERAPY  ──────────────────────── */
   {
     id: "svc-geriatric-physio",
-    name: "Geriatric Physiotherapy / Rehabilitation",
+    name: "Geriatric Physiotherapy",
     image: "/service/Geriatric-rehabilitation.png",
     description:
       "Maintains mobility, strength and independence for older adults.",
@@ -636,7 +636,7 @@ export const servicesData: IServiceData[] = [
   /* ────────────────────────────────  GAIT TRAINING  ─────────────────────────── */
   {
     id: "svc-gait-training",
-    name: "Gait Training",
+    name: "Gait correction",
     image: "/service/gait training.jpg",
     description:
       "Exercises and technologies to improve walking pattern, speed and safety.",

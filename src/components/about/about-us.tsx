@@ -128,31 +128,47 @@ const AboutUs: React.FC = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               {aboutUsContent.meetOurFounder}
             </h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
-              {aboutUsContent.aboutFounder1}{" "}
-              <span className="text-gray-800 font-bold">
-                {aboutUsContent.jayasLuxeSilver}
-              </span>
-              {aboutUsContent.aboutFounder2}
-              <span className="text-gray-800 font-bold">
-                {aboutUsContent.aboutFounder3}
-              </span>{" "}
-              {aboutUsContent.aboutFounder4}{" "}
-              <span className="text-gray-800 font-bold">
-                {aboutUsContent.aboutFounder5}
-              </span>
-              {aboutUsContent.aboutFounder6}
-              <br />
-              <br />
-              {aboutUsContent.aboutFounder7}{" "}
-              <span className="text-gray-800 font-bold">
-                hallmark 925 pure silver
-              </span>{" "}
-              {aboutUsContent.aboutFounder8}
+            <p className="text-gray-600 text-lg leading-relaxed whitespace-pre-line">
+              <strong> Dr. Kuldeep Gupta (PT)</strong>, the visionary behind{" "}
+              <strong>Manya Physiotherapy Clinic</strong>, is a licensed
+              physiotherapist with a deep commitment to patient wellness and
+              recovery. With a background in{" "}
+              <strong>
+                Master of Physiotherapy (MPT) in 2009 from Rajiv Gandhi
+                University of Medical Sciences(RGUHS), Bangalore and years of
+                hands-on experience.
+              </strong>{" "}
+              He is also having experience in working with Jehangir Apollo
+              hospital, Pune, Sager Apollo hospital, Bangalore, Hosmat hospital,
+              Bangalore, Vydehi Medical College, Bangalore, Manipal hospital,
+              Bangalore. He has also completed Fellowship in Advanced
+              NeuroMyoSkeletal techniques from Mumbai with he is leaned lot of
+              advance treatment of TMJ, Foot, Migraine, Spine, Joint Arthritis,
+              Shoulder issue and Biomechanical imbalance of body. During this
+              journey of practice he studied lot of advanced certified courses
+              related to physiotherapy and health care like
+              <strong>
+                {" "}
+                Advance Manual Therapy, Neuro Development Therapy(NDT), K-CAT,
+                D-CAT, Dry needling, Cupping therapy, Advanced Foot Rehab,
+                Myofascial Release, Janda approach for shoulder complex,
+                Therapeutic taping and joining Continuing Medical Education(CME)
+              </strong>
+              on various topics. He has treated a wide range of musculoskeletal,
+              neurological conditions and Bio-mechanical problems. Dr. Kuldeep
+              gupta goal is to provide high-quality; affordable physiotherapy
+              services that help individuals regain mobility, relieve pain, and
+              return to their daily activities with confidence Her compassionate
+              approach, clinical expertise, and focus on long-term healing have
+              made the clinic a trusted name in the community. Manya
+              Physiotherapy Clinic is built on a foundation of care, trust, and
+              excellence in physiotherapy and rehabilitation.
             </p>
           </motion.div>
         </motion.div>
-        <h2 className="text-3xl font-bold text-center text-gray-800 mt-10">Certificates</h2>
+        <h2 className="text-3xl font-bold text-center text-gray-800 mt-10">
+          Certificates
+        </h2>
         <div className="mt-10 lg:mt-20 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {certificateImages.map((src) => (
             <img

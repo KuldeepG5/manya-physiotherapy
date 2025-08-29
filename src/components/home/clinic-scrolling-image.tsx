@@ -1,12 +1,41 @@
 // components/InfiniteScroll.tsx
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import { clinicImage1,clinicImage2,clinicImage3,clinicImage4 } from "@/content/our-clinic-content";
+import {
+  clinicImage2,
+  clinicImage3,
+  clinicImage5,
+  office,
+  maleRoom,
+  femeleRoom,
+  gallary,
+  hall,
+} from "@/content/our-clinic-content";
 
 export const specialties = [
   {
     title: " ",
-    image: clinicImage1,
+    image: clinicImage5,
+  },
+  {
+    title: " ",
+    image: office,
+  },
+  {
+    title: " ",
+    image: maleRoom,
+  },
+  {
+    title: " ",
+    image: hall,
+  },
+  {
+    title: " ",
+    image: femeleRoom,
+  },
+  {
+    title: " ",
+    image: gallary,
   },
   {
     title: " ",
@@ -15,10 +44,6 @@ export const specialties = [
   {
     title: " ",
     image: clinicImage3,
-  },
-  {
-    title: " ",
-    image:clinicImage4,
   },
 ];
 
