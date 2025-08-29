@@ -23,6 +23,10 @@ export const specialties = [
   },
   {
     title: " ",
+    image: clinicImage3,
+  },
+  {
+    title: " ",
     image: maleRoom,
   },
   {
@@ -40,10 +44,6 @@ export const specialties = [
   {
     title: " ",
     image: clinicImage2,
-  },
-  {
-    title: " ",
-    image: clinicImage3,
   },
 ];
 

@@ -6,42 +6,42 @@ const specialties = [
   {
     title: "Rehab Care",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/rehab care.jpg",
   },
   {
     title: "Muscle and Joint mobility ",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-squeezing-biceps_1048-2641.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/muscle and joint mobility.jpg",
   },
   {
     title: "Sports Injury",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/sports injury 2.jpg",
   },
   {
     title: "Neurological conditions",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-squeezing-biceps_1048-2641.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/neurological condition.jpg",
   },
   {
     title: "Posture Correction",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/postural correction.jpg",
   },
   {
     title: "Tele physiotherapy",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-squeezing-biceps_1048-2641.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/tele physiotherapy.jpg",
   },
   {
     title: "Strength Training",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/Strength-Training.jpg",
   },
    {
-    title: "Spine care",
+    title: "back pain",
     image:
-      "https://img.freepik.com/free-photo/muscular-man-squeezing-biceps_1048-2641.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+      "/back pain 2.jpg",
   },
 ];
 
