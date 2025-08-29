@@ -1,7 +1,7 @@
 export const OurClinicData = {};
 // export const clinicImage1 = '/room-1.jpg';
 export const clinicImage2 = "/room-2.jpg";
-export const clinicImage3 = "public/treatment room.jpg";
+export const treatmentRoom = "/treatment room.jpg";
 export const clinicImage4 = "/room-5.jpg";
 export const clinicImage5 = "/manya-physiotherapy.jpeg";
 export const office = `/reception.jpg`;
