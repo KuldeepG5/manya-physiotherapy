@@ -9,7 +9,7 @@ const specialties = [
       "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
   },
   {
-    title: "Joint Mobility",
+    title: "Muscle and Joint mobility ",
     image:
       "https://img.freepik.com/free-photo/muscular-man-squeezing-biceps_1048-2641.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
   },
@@ -19,7 +19,7 @@ const specialties = [
       "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
   },
   {
-    title: "Back Pain",
+    title: "Neurological conditions",
     image:
       "https://img.freepik.com/free-photo/muscular-man-squeezing-biceps_1048-2641.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
   },
@@ -29,7 +29,7 @@ const specialties = [
       "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
   },
   {
-    title: "Tele Physio",
+    title: "Tele physiotherapy",
     image:
       "https://img.freepik.com/free-photo/muscular-man-squeezing-biceps_1048-2641.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
   },
@@ -37,6 +37,11 @@ const specialties = [
     title: "Strength Training",
     image:
       "https://img.freepik.com/free-photo/muscular-man-running_1048-2376.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
+  },
+   {
+    title: "Spine care",
+    image:
+      "https://img.freepik.com/free-photo/muscular-man-squeezing-biceps_1048-2641.jpg?ga=GA1.1.1267587208.1687781140&semt=ais_hybrid&w=740",
   },
 ];
 
@@ -82,9 +87,7 @@ const Specialities = () => {
       <div className="px-3 lg:page-x-padding mb-8">
         <h1 className="text-main mb-4">Our Specialities</h1>
         <p className="max-w-3xl mx-auto">
-          Manya Physiotherapy offers expert physiotherapy treatments across
-          multiple specialties. Contact us to check the availability of
-          physiotherapists near you.
+         Manya Physiotherapy offers expert physiotherapy treatments across multiple specialties. Contact us to check the availability of physiotherapists in Kanpur 
         </p>
       </div>
 

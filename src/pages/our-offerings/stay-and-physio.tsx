@@ -57,9 +57,10 @@ const StayAndPhysiotherapy = () => {
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
                       We offer modern stay facilities for patients who need
-                      continuous care and treatment. Perfect for those traveling
-                      from afar or undergoing long-term rehabilitation, our
-                      accommodations are safe, clean, and comfortable.
+                      continuous care and treatment. Perfect for those
+                      travelling from afar or undergoing long-term
+                      rehabilitation, our accommodations are safe, clean, and
+                      comfortable.
                     </p>
                   </div>
                   <img
@@ -90,11 +91,11 @@ const StayAndPhysiotherapy = () => {
                       for a wide range of conditions:
                     </p>
                     <ul className="list-disc list-inside text-gray-700 space-y-1 pl-2">
-                      <li>Post-surgical rehabilitation</li>
-                      <li>Stroke and neurological recovery</li>
-                      <li>Sports injury therapy</li>
-                      <li>Back and joint pain management</li>
-                      <li>Customized fitness and mobility programs</li>
+                      <li>Post-surgical Physiotherapy and Rehabilitation</li>
+                      <li>Stroke and Neurological Physiotherapy</li>
+                      <li>Spinal cord injury rehabilitation</li>
+                      <li>Spine, Back and Joint pain Physiotherapy</li>
+                      <li>Customized Mobility programs for Elder patients</li>
                     </ul>
                   </div>
                   <img
@@ -114,7 +115,8 @@ const StayAndPhysiotherapy = () => {
                     </h3>
                     <ul className="list-disc list-inside text-gray-700 space-y-1 pl-2">
                       <li>Compassionate and certified physiotherapists</li>
-                      <li>On-site stay facilities with 24/7 support</li>
+                      <li>On-site stay facilities</li>
+                      <li>Advance Exercise therapy and Electrotherapy</li>
                       <li>State-of-the-art equipment and clean environment</li>
                       <li>Personalized treatment plans for every patient</li>
                     </ul>

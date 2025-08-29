@@ -17,19 +17,16 @@ const Footer = () => {
             </div>
             <p>
               Manya Physiotherapy Center offers advanced, personalized
-              physiotherapy treatments by seamlessly integrating in-clinic care,
-              home visits, and tele-rehabilitation for holistic recovery. We
-              proudly serve multiple locations across the city, including{" "}
+              physiotherapy treatments by seamlessly integrating in-clinic
+              physiotherapy, home physiotherapy, and tele physiotherapy in
+              Kanpur — physiotherapy in{" "}
               <strong>
-                Kakadeo, Swaroop Nagar, Civil Lines, Nawabganj, Azad Nagar,
-                Vishnupuri, Ashok Nagar, Harsh Nagar
+                Naubasta, Yashoda Nagar, Saket Nagar, Barra, Kidwai Nagar,
+                Jarauli, Kakadeo, Swaroop Nagar, Civil Lines, Nawabganj, Azad
+                Nagar, Vishnupuri, Ashok Nagar, Harsh Nagar, as well as
+                Kalyanpur, Shastri Nagar, Govind Nagar, Kashev Nagar, Gopal
+                Nagar and all over in Kanpur.
               </strong>
-              , as well as{" "}
-              <strong>
-                Kalyanpur, Shastri Nagar, Govind Nagar, Naubasta, Kidwai Nagar,
-                Barra, Saket Nagar, Kashev Nagar, Yashoda Nagar, and Gopal Nagar
-              </strong>
-              .
             </p>
           </NavLink>
         </div>

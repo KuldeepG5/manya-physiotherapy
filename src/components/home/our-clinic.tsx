@@ -10,11 +10,11 @@ const OurClinic = () => {
       </h1>
       <h2 className="text-gray-700 text-base sm:text-lg max-w-3xl mx-auto text-center mb-10">
         Trusted <strong>Neurophysiotherapist in Kanpur</strong> offering
-        advanced rehab care including{" "}
-        <strong>home physiotherapy services</strong>,
-        <strong>pediatric physiotherapy</strong>,{" "}
-        <strong>orthopedic therapy</strong>, and{" "}
-        <strong>stroke rehabilitation</strong> across the city.
+        advanced rehab care including home physiotherapy services for neuro
+        physiotherapy,
+        <strong> spine physiotherapy</strong>,
+        <strong>joint and muscles physiotherapy</strong>, and best{" "}
+        <strong>stroke physiotherapy </strong> in the Kanpur
       </h2>
 
       <div className="max-w-4xl mx-auto text-gray-800">
@@ -26,7 +26,7 @@ const OurClinic = () => {
             <div className="flex justify-center sm:justify-start gap-2">
               <p>Rating:</p> ⭐⭐⭐⭐⭐ <span className="font-bold">5.0</span>
             </div>
-            <p>Opening Hours - 11am to 7pm</p>
+            <p>Opening Hours - 9am to 9pm</p>
           </div>
           <div className="space-y-4 text-center sm:text-left">
             <div className="flex justify-center sm:justify-start items-center gap-2">

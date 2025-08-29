@@ -694,7 +694,7 @@ export const therapiesData: ITherapyData[] = [
   },
   {
     id: "a1c2d3e4-0001-0001-0001-000000000006",
-    name: "Myofascial Release",
+    name: "Myofascial Release (MFR)",
     image:
       "/therapy/myofascial release.jpg",
     description:
@@ -815,7 +815,7 @@ export const therapiesData: ITherapyData[] = [
   },
   {
     id: "9f6e108b-2a97-4bd5-801e-bbb67e7a34f1",
-    name: "Cryotherapy",
+    name: "Cryotherapy (Cold Therapy)",
     image:
       "/therapy/cryo therapy.jpg",
     description:
