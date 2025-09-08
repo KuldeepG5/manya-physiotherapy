@@ -48,7 +48,7 @@ const Footer = () => {
                 <NavLink to="/blog">Blogs</NavLink>
               </li>
               <li className="link-animation">
-                <NavLink to="/faqs">FAQ</NavLink>
+                <NavLink to="/faqs">Case Studies</NavLink>
               </li>
             </ul>
           </div>

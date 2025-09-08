@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { therapiesData } from "@/components/therapies-offered/therapies-data";
-import { Link } from "react-router-dom";
+import { conditionData } from "./conditions-we-treat-data";
 import { CustomButton } from "../common";
 
 const ConditionsSection = () => {
@@ -16,7 +15,7 @@ const ConditionsSection = () => {
     setVisibleCount(9); // Reset visible count on search
   };
 
-  const filteredTherapies = therapiesData.filter((therapy) =>
+  const filteredTherapies = conditionData.filter((therapy) =>
     therapy.name.toLowerCase().includes(searchTerm)
   );
 
@@ -60,15 +59,6 @@ const ConditionsSection = () => {
             />
             <div className="p-4">
               <h2 className="text-lg font-semibold mb-2">{therapy.name}</h2>
-              <p className="text-gray-600 text-sm line-clamp-3">
-                {therapy.description}
-              </p>
-              <Link
-                to={`/therapies-offered/${therapy.id}`}
-                className="text-blue-600 hover:underline font-semibold mt-3 inline-flex items-center"
-              >
-                Read More →
-              </Link>
             </div>
           </div>
         ))}

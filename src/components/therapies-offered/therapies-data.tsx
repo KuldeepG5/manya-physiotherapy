@@ -12,8 +12,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "8eb96cfb-72dd-4c5f-b0ed-953bdce90623",
     name: "Interferential Therapy (IFT)",
-    image:
-      "/therapy/interferential therapy.jpg",
+    image: "/therapy/interferential therapy.jpg",
     description:
       "Uses low-frequency electrical signals to reduce pain and inflammation.",
     data: () => {
@@ -87,8 +86,7 @@ export const therapiesData: ITherapyData[] = [
   },
   {
     id: "501e7183-f72a-4ae2-8075-1e940d5b526f",
-    image:
-      "/therapy/ultrasound therapy.jpg",
+    image: "/therapy/ultrasound therapy.jpg",
     name: "Ultrasound Therapy",
     data: () => {
       return (
@@ -137,12 +135,11 @@ export const therapiesData: ITherapyData[] = [
     },
     description:
       "Employs sound waves to promote tissue healing and reduce inflammation.",
-  },
+},  
   {
     id: "589012ea-82b9-43ff-a7ce-25b0be6ffb1b",
     name: "Laser Therapy",
-    image:
-      "/therapy/laser therapy.jpg",
+    image: "/therapy/laser therapy.jpg",
     description:
       "Uses light energy to accelerate tissue repair and reduce pain.",
     data: () => {
@@ -207,8 +204,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "b7e392ac-3d87-4f5e-9b3e-d2ea289b839f",
     name: "Traction Therapy",
-    image:
-      "/therapy/traction therapy.jpg",
+    image: "/therapy/traction therapy.jpg",
     description:
       "Gently stretches the spine to relieve pressure and reduce pain.",
     data: () => {
@@ -325,8 +321,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "e8e1f310-1f90-4d35-bf9b-0dc6d3a6de70",
     name: "Kinesio Taping Therapy",
-    image:
-      "/therapy/kinisio taping.jpg",
+    image: "/therapy/kinisio taping.jpg",
     description:
       "Uses elastic therapeutic tape to support muscles and reduce pain without restricting movement.",
     data: () => {
@@ -377,8 +372,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "2a84d38a-9078-4a42-95d1-3fa29a1ef279",
     name: "Dry Needling Therapy",
-    image:
-      "/therapy/dry-needling.jpg",
+    image: "/therapy/dry-needling.jpg",
     description:
       "Involves inserting fine needles to release muscle tension and trigger points.",
     data: () => {
@@ -429,8 +423,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "346bbab9-5914-452f-89a7-a1d4b0a69102",
     name: "Thermotherapy (Heat Therapy)",
-    image:
-      "/therapy/heat therapy.jpg",
+    image: "/therapy/heat therapy.jpg",
     description:
       "Uses heat to improve blood flow, reduce stiffness, and ease muscle spasms.",
     data: () => {
@@ -483,8 +476,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "a1c2d3e4-0001-0001-0001-000000000001",
     name: "TENS Therapy",
-    image:
-      "/therapy/tens therapy.jpeg",
+    image: "/therapy/tens therapy.jpeg",
     description: "Uses electrical pulses to reduce pain by stimulating nerves.",
     data: () => (
       <div className="space-y-4">
@@ -527,8 +519,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "a1c2d3e4-0001-0001-0001-000000000002",
     name: "Lymphatic Drainage Massage",
-    image:
-      "/therapy/lymphatic-drainage.jpg",
+    image: "/therapy/lymphatic-drainage.jpg",
     description:
       "Gentle massage that stimulates lymph flow to reduce swelling and detoxify.",
     data: () => (
@@ -574,8 +565,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "a1c2d3e4-0001-0001-0001-000000000003",
     name: "Overhead Harness Gait Training",
-    image:
-      "/therapy/over head harness.jpg",
+    image: "/therapy/over head harness.jpg",
     description:
       "Assisted walking practice with harness support to improve gait and balance.",
     data: () => (
@@ -621,8 +611,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "a1c2d3e4-0001-0001-0001-000000000004",
     name: "Manual Therapy",
-    image:
-      "/therapy/manual therapy.jpeg",
+    image: "/therapy/manual therapy.jpeg",
     description: "Hands-on techniques to mobilize joints and soft tissues.",
     data: () => (
       <div className="space-y-4">
@@ -658,8 +647,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "a1c2d3e4-0001-0001-0001-000000000005",
     name: "Cupping Therapy",
-    image:
-      "/therapy/cupping-therapy.jpeg",
+    image: "/therapy/cupping-therapy.jpeg",
     description:
       "Uses suction cups to lift soft tissue, improve circulation, and relieve tension.",
     data: () => (
@@ -695,8 +683,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "a1c2d3e4-0001-0001-0001-000000000006",
     name: "Myofascial Release (MFR)",
-    image:
-      "/therapy/myofascial release.jpg",
+    image: "/therapy/myofascial release.jpg",
     description:
       "Gentle sustained pressure on fascia to eliminate pain and restore movement.",
     data: () => (
@@ -733,8 +720,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "a1c2d3e4-0001-0001-0001-000000000007",
     name: "Soft Tissue Mobilization",
-    image:
-      "/therapy/soft tissue mobilization.jpg",
+    image: "/therapy/soft tissue mobilization.jpg",
     description:
       "Hands-on manipulation of muscles, tendons & ligaments to restore function.",
     data: () => (
@@ -816,8 +802,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "9f6e108b-2a97-4bd5-801e-bbb67e7a34f1",
     name: "Cryotherapy (Cold Therapy)",
-    image:
-      "/therapy/cryo therapy.jpg",
+    image: "/therapy/cryo therapy.jpg",
     description:
       "Uses cold temperatures to reduce pain, swelling, and inflammation.",
     data: () => (
@@ -861,8 +846,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "11cb419b-8934-4642-97c1-dce9ab208fc2",
     name: "Chest Physiotherapy",
-    image:
-      "/therapy/chest  physiotherapy.jpg",
+    image: "/therapy/chest  physiotherapy.jpg",
     description:
       "Clears lung secretions and improves breathing through manual techniques.",
     data: () => (
@@ -907,8 +891,7 @@ export const therapiesData: ITherapyData[] = [
   {
     id: "ee304299-e6ae-4703-b9ff-f5c4f6d6a5d3",
     name: "Craniosacral Therapy",
-    image:
-      "/therapy/cranioscaral therapy 1.jpg",
+    image: "/therapy/cranioscaral therapy 1.jpg",
     description:
       "Gentle hands-on technique to relieve tension in the central nervous system.",
     data: () => (
