@@ -80,7 +80,6 @@ export const certificateImages = [
   hemophilliaCme,
   fnmtCertificate,
   gymnasticCompetition,
-  iapMembership,
   jainHospital,
   jehangirInternship,
   kcat,

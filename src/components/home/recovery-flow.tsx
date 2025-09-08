@@ -59,7 +59,7 @@ const SectionCard = ({ data }: { data: IHeroData }) => {
         <div className="p-5 h-20 w-20 flex-center rounded-full bg-main mb-4">
           {data.icon()}
         </div>
-        <h2 className="font-bold text-main text-lg mb-2">{data.title}</h2>
+        {/* <h2 className="font-bold text-main text-lg mb-2">{data.title}</h2> */}
         <p className="font-semibold text-main/60 mb-2">{data.text}</p>
         <p className="text-gray-500">{data.para}</p>
       </div>

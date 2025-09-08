@@ -87,7 +87,7 @@ export const navConfig: INavConfig[] = [
   },
   {
     id: 6,
-    label: "FAQs",
+    label: "Case Studies",
     link: "/faqs",
   },
 ];

@@ -44,10 +44,10 @@ const FaqSection = () => {
 
   return (
     <section className="section-container text-center">
-      <h1 className="text-main mb-12">Frequently Asked Questions</h1>
+      <h1 className="text-main mb-12"> Case Studies</h1>
       <p className="max-w-3xl mx-auto mb-8">
         Some frequently asked questions regarding physiotherapy and chiropractic
-        services. For more FAQs, feel free to contact us directly.
+        services. For more  case studies, feel free to contact us directly.
       </p>
       <div className="space-y-4">
         {faqsData.map((item, index) => (

@@ -73,7 +73,7 @@ const Brand = () => (
   <div className="flex-center">
     <Logo />
     <span className="ml-3 text-2xl font-extrabold text-main leading-tight">
-      Manya <br /> Physiotherapy
+      Manya <br /> Physiotherapy Clinic
     </span>
   </div>
 );
