@@ -25,7 +25,7 @@ export const conditionData = [
   },
   {
     name: "Ankylosing-spondylitis",
-    image: "/public/condition-we-treat/ankylosing-spondylitis.gif",
+    image: "/condition-we-treat/ankylosing-spondylitis.gif",
   },
   {
     name: "Arthiritis",
@@ -153,7 +153,7 @@ export const conditionData = [
   },
   {
     name: "Genu Valgum ",
-    image: "public/condition-we-treat/genu valgum.jpg ",
+    image: "/condition-we-treat/genu valgum.jpg ",
   },
   {
     name: "Golfer's Elbow",
@@ -281,7 +281,7 @@ export const conditionData = [
   },
    {
     name:"Sacralization",
-    image:"public/condition-we-treat/sacralization.jpeg"
+    image:"/condition-we-treat/sacralization.jpeg"
   },
    {
     name:"Sciatica-Pain",
