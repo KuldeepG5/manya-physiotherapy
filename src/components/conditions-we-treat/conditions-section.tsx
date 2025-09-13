@@ -12,7 +12,7 @@ const ConditionsSection = () => {
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value.toLowerCase());
-    setVisibleCount(9); // Reset visible count on search
+    setVisibleCount(9); 
   };
 
   const filteredTherapies = conditionData.filter((therapy) =>
@@ -55,7 +55,7 @@ const ConditionsSection = () => {
             <img
               src={therapy.image}
               alt={therapy.name}
-              className="w-full h-56 object-cover"
+              className="w-full h-96 object-cover"
             />
             <div className="p-4">
               <h2 className="text-lg font-semibold mb-2">{therapy.name}</h2>
@@ -64,7 +64,6 @@ const ConditionsSection = () => {
         ))}
       </div>
 
-      {/* Show More Button */}
       {visibleCount < filteredTherapies.length && (
         <div className="flex justify-center mt-8">
           <CustomButton onClick={handleShowMore} title="Show More" />
